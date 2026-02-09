@@ -1,0 +1,29 @@
+{
+  "raw_coefficients": {
+    "costEfficiency": 1.213241367163591,
+    "damageTrade": -0.08154155649303264,
+    "survival": 0.45655651976634476,
+    "firepower": 0.012763976389332243,
+    "objective": -0.37301405613175964
+  },
+  "normalized_weights": {
+    "costEfficiency": 0.5676998952187446,
+    "damageTrade": 0.03815492475770996,
+    "survival": 0.21363192473294584,
+    "firepower": 0.005972519776290643,
+    "objective": 0.17454073551430888
+  },
+  "final_config_weights": {
+    "costEfficiency": 0.48254491093593294,
+    "damageTrade": 0.032431686044053464,
+    "survival": 0.18158713602300397,
+    "firepower": 0.005076641809847046,
+    "objective": 0.14835962518716253,
+    "winBonus": 0.15
+  },
+  "cv_accuracy": 0.576086956521739,
+  "cv_std": 0.04560038470305008,
+  "intercept": -0.6138451131021149,
+  "sample_count": 460,
+  "match_count": 47
+}

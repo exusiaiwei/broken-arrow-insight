@@ -1,0 +1,5190 @@
+{
+  "matchCount": 12,
+  "samplePlayerAllFields": [
+    "Id",
+    "Name",
+    "TotalSpawnedUnitScore",
+    "TotalRefundedUnitScore",
+    "UnitData",
+    "TransferredUnits",
+    "Destruction",
+    "Losses",
+    "OldRating",
+    "DamageDealt",
+    "DamageReceived",
+    "ObjectivesCaptured",
+    "NewRating",
+    "SupplyPointsConsumed",
+    "SupplyCaptured",
+    "DestructionScore",
+    "LossesScore",
+    "SupplyPointsConsumedFromAllies",
+    "Medals",
+    "RawExpWithMultipliers",
+    "RawExp",
+    "TotalExp",
+    "DLRatio",
+    "TeamId"
+  ],
+  "sampleUnitAllFields": [
+    "Id",
+    "OptionIds",
+    "TotalDamageReceived"
+  ],
+  "match0_meta": {
+    "id": "5138724",
+    "isWin": false,
+    "endReason": 3,
+    "mapId": 5,
+    "duration": 2007
+  },
+  "allPlayersRaw": [
+    {
+      "Id": 194698,
+      "Name": "二手导弹车上转转回收",
+      "TotalSpawnedUnitScore": 8075,
+      "TotalRefundedUnitScore": 2350,
+      "UnitData": {
+        "199394": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageReceived": 22.615694
+        },
+        "199410": {
+          "Id": 276,
+          "OptionIds": [
+            1489
+          ],
+          "TotalDamageReceived": 25.906115,
+          "TotalSupplyPointsConsumed": 570
+        },
+        "199412": {
+          "Id": 276,
+          "OptionIds": [
+            1489
+          ],
+          "TotalDamageDealt": 7.1894646,
+          "TotalDamageReceived": 26.036007,
+          "TotalSupplyPointsConsumed": 726
+        },
+        "199462": {
+          "Id": 27,
+          "OptionIds": [
+            17,
+            56,
+            1966
+          ],
+          "TotalDamageDealt": 8,
+          "TotalDamageReceived": 9.018755,
+          "TotalSupplyPointsConsumed": 804
+        },
+        "199492": {
+          "Id": 37,
+          "OptionIds": [
+            1764,
+            1766,
+            1767
+          ],
+          "TotalDamageDealt": 15.718999,
+          "TotalDamageReceived": 28.646154,
+          "KilledCount": 1
+        },
+        "199501": {
+          "Id": 65,
+          "OptionIds": [],
+          "TotalDamageDealt": 2.090653,
+          "TotalDamageReceived": 15.749998
+        },
+        "199677": {
+          "Id": 392,
+          "OptionIds": [
+            1809
+          ],
+          "WasRefunded": true
+        },
+        "199679": {
+          "Id": 77,
+          "OptionIds": [
+            1480
+          ],
+          "TotalDamageDealt": 61.63486,
+          "TotalDamageReceived": 30.364164,
+          "KilledCount": 2
+        },
+        "199680": {
+          "Id": 77,
+          "OptionIds": [
+            1480
+          ],
+          "TotalDamageReceived": 30.19033
+        },
+        "199902": {
+          "Id": 106,
+          "OptionIds": [
+            1524,
+            218
+          ],
+          "TotalDamageDealt": 29.985193,
+          "TotalDamageReceived": 13.72,
+          "KilledCount": 2
+        },
+        "199911": {
+          "Id": 106,
+          "OptionIds": [
+            1524,
+            218
+          ],
+          "TotalDamageDealt": 14.983352,
+          "TotalDamageReceived": 14.945105,
+          "KilledCount": 1
+        },
+        "199971": {
+          "Id": 49,
+          "OptionIds": [
+            82
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 5.2915115,
+          "TotalDamageReceived": 4.593294,
+          "TotalSupplyPointsConsumed": 349
+        },
+        "199973": {
+          "Id": 76,
+          "OptionIds": [
+            1482
+          ],
+          "TotalDamageReceived": 15.59782
+        },
+        "200695": {
+          "Id": 251,
+          "OptionIds": [
+            749,
+            614,
+            618
+          ],
+          "TotalDamageDealt": 16,
+          "TotalDamageReceived": 14.983352
+        },
+        "200790": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 10.658745,
+          "TotalDamageReceived": 40.891582,
+          "TotalSupplyPointsConsumed": 20
+        },
+        "200919": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 11.052498,
+          "KilledCount": 1
+        },
+        "201051": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true
+        },
+        "201273": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "201284": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "201337": {
+          "Id": 294,
+          "OptionIds": [
+            1031,
+            1889
+          ],
+          "WasRefunded": true
+        },
+        "201495": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageDealt": 35.756397,
+          "TotalDamageReceived": 25.806656,
+          "TotalSupplyPointsConsumed": 1056
+        },
+        "201497": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 70.63001,
+          "TotalDamageReceived": 57.65577,
+          "TotalSelfDamageDealt": 2.9364705,
+          "KilledCount": 1
+        },
+        "201983": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageDealt": 32.36031,
+          "TotalDamageReceived": 16.555191,
+          "KilledCount": 2
+        },
+        "201986": {
+          "Id": 74,
+          "OptionIds": [
+            1848
+          ],
+          "TotalDamageDealt": 13.079016,
+          "TotalDamageReceived": 23.151611,
+          "TotalSupplyPointsConsumed": 312,
+          "KilledCount": 1
+        },
+        "201987": {
+          "Id": 74,
+          "OptionIds": [
+            1848
+          ],
+          "TotalDamageDealt": 8.49319,
+          "TotalDamageReceived": 24.039944,
+          "TotalSupplyPointsConsumed": 347,
+          "KilledCount": 1
+        },
+        "201995": {
+          "Id": 392,
+          "OptionIds": [
+            1809
+          ],
+          "TotalDamageReceived": 10.084121
+        },
+        "201996": {
+          "Id": 72,
+          "OptionIds": [
+            1845
+          ],
+          "TotalDamageDealt": 4.916201,
+          "TotalDamageReceived": 46.104584
+        },
+        "201997": {
+          "Id": 65,
+          "OptionIds": [],
+          "TotalDamageDealt": 36.85727,
+          "TotalDamageReceived": 13.87205,
+          "TotalSupplyPointsConsumed": 612,
+          "KilledCount": 2
+        },
+        "202284": {
+          "Id": 191,
+          "OptionIds": [
+            415
+          ],
+          "TotalDamageDealt": 57.404766,
+          "TotalSupplyPointsConsumed": 567
+        },
+        "202399": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true
+        },
+        "202808": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 49.775272,
+          "BuildingDestroyedCount": 2,
+          "KilledCount": 1
+        },
+        "203143": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageDealt": 40.885113,
+          "TotalDamageReceived": 29.66086,
+          "TotalSupplyPointsConsumed": 1435,
+          "KilledCount": 1
+        },
+        "203144": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 21.56285,
+          "TotalDamageReceived": 37.067276,
+          "TotalSupplyPointsConsumed": 1237,
+          "TotalSelfDamageDealt": 9.712941,
+          "KilledCount": 1
+        },
+        "203517": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 37.85342,
+          "TotalDamageReceived": 8.600995,
+          "TotalSupplyPointsConsumed": 1018,
+          "KilledCount": 1
+        },
+        "203526": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageDealt": 21.078691,
+          "TotalDamageReceived": 13.564353,
+          "TotalSelfDamageDealt": 2.8233566,
+          "SelfDestruction": true
+        },
+        "203528": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 34.63766,
+          "TotalDamageReceived": 29.425241,
+          "TotalSupplyPointsConsumed": 725,
+          "KilledCount": 2
+        },
+        "203600": {
+          "Id": 251,
+          "OptionIds": [
+            749,
+            614,
+            618
+          ],
+          "TotalDamageDealt": 16,
+          "TotalDamageReceived": 10.012794,
+          "KilledCount": 1
+        },
+        "203617": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true
+        },
+        "203947": {
+          "Id": 162,
+          "OptionIds": [
+            305,
+            306
+          ],
+          "TotalDamageDealt": 56.62691,
+          "TotalSupplyPointsConsumed": 1700,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 2
+        },
+        "203960": {
+          "Id": 162,
+          "OptionIds": [
+            305,
+            306
+          ],
+          "TotalDamageDealt": 48.20887,
+          "TotalSupplyPointsConsumed": 1660,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 1
+        },
+        "203969": {
+          "Id": 162,
+          "OptionIds": [
+            305,
+            306
+          ],
+          "TotalDamageDealt": 53.448586,
+          "TotalSupplyPointsConsumed": 1683,
+          "KilledCount": 1
+        },
+        "204776": {
+          "Id": 41,
+          "OptionIds": [
+            63,
+            2082
+          ],
+          "TotalDamageDealt": 17.726074,
+          "TotalDamageReceived": 31.606138,
+          "TotalSupplyPointsConsumed": 913
+        },
+        "204778": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 46.72447,
+          "TotalDamageReceived": 66.85156,
+          "TotalSupplyPointsConsumed": 765,
+          "TotalSelfDamageDealt": 7.11971,
+          "KilledCount": 1
+        },
+        "205023": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "205310": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "205320": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "205329": {
+          "Id": 16,
+          "OptionIds": [
+            1753,
+            37,
+            1756
+          ],
+          "TotalDamageDealt": 20.347313
+        },
+        "205333": {
+          "Id": 77,
+          "OptionIds": [
+            1480
+          ],
+          "TotalDamageDealt": 17.503056,
+          "TotalDamageReceived": 8.399704,
+          "TotalSelfDamageDealt": 0.48003826,
+          "KilledCount": 1
+        },
+        "205343": {
+          "Id": 16,
+          "OptionIds": [
+            1753,
+            37,
+            1756
+          ],
+          "TotalDamageDealt": 10.171434,
+          "TotalDamageReceived": 25.045137
+        },
+        "205345": {
+          "Id": 77,
+          "OptionIds": [
+            1480
+          ],
+          "TotalDamageDealt": 17.524195,
+          "TotalDamageReceived": 19.805767,
+          "TotalSupplyPointsConsumed": 694,
+          "TotalSelfDamageDealt": 0.33115414,
+          "KilledCount": 1
+        },
+        "205377": {
+          "Id": 395,
+          "OptionIds": [],
+          "TotalDamageReceived": 17
+        },
+        "205587": {
+          "Id": 189,
+          "OptionIds": [
+            1598,
+            405,
+            406
+          ]
+        },
+        "205593": {
+          "Id": 294,
+          "OptionIds": [
+            1031,
+            1889
+          ],
+          "TotalDamageDealt": 52.81145,
+          "TotalDamageReceived": 31.839046,
+          "KilledCount": 2
+        },
+        "206003": {
+          "Id": 322,
+          "OptionIds": []
+        },
+        "206477": {
+          "Id": 37,
+          "OptionIds": [
+            1764,
+            1766,
+            1767
+          ],
+          "TotalDamageDealt": 28.053083,
+          "TotalDamageReceived": 1.849315
+        },
+        "206478": {
+          "Id": 76,
+          "OptionIds": [
+            1482
+          ]
+        },
+        "206564": {
+          "Id": 395,
+          "OptionIds": [],
+          "TotalDamageReceived": 25
+        },
+        "206815": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 43.90689,
+          "KilledCount": 1
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 31,
+      "Losses": 22,
+      "OldRating": 2183.7896,
+      "DamageDealt": 735,
+      "DamageReceived": 668,
+      "ObjectivesCaptured": 4,
+      "NewRating": 2163.665,
+      "SupplyPointsConsumed": 17193,
+      "SupplyCaptured": 932,
+      "DestructionScore": 2675,
+      "LossesScore": 2770,
+      "SupplyPointsConsumedFromAllies": 265,
+      "Medals": [
+        1,
+        7
+      ],
+      "RawExpWithMultipliers": 956,
+      "RawExp": 956,
+      "TotalExp": 1456,
+      "DLRatio": 0.96570396,
+      "TeamId": 0
+    },
+    {
+      "Id": 16589,
+      "Name": "SNAPE·α·LSP",
+      "TotalSpawnedUnitScore": 8005,
+      "TotalRefundedUnitScore": 3155,
+      "UnitData": {
+        "199397": {
+          "Id": 20,
+          "OptionIds": [
+            1936,
+            69
+          ],
+          "TotalDamageReceived": 26.935184
+        },
+        "199398": {
+          "Id": 285,
+          "OptionIds": [
+            867,
+            860,
+            857,
+            872
+          ],
+          "TotalDamageReceived": 27.000021
+        },
+        "199464": {
+          "Id": 21,
+          "OptionIds": [
+            1897,
+            1898
+          ],
+          "TotalDamageDealt": 104.27056,
+          "TotalDamageReceived": 27.82909,
+          "TotalSupplyPointsConsumed": 1926,
+          "KilledCount": 4
+        },
+        "199477": {
+          "Id": 61,
+          "OptionIds": [
+            1476
+          ],
+          "TotalDamageReceived": 1.1206317
+        },
+        "199493": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ],
+          "TotalDamageDealt": 78.46037,
+          "TotalDamageReceived": 21.89523,
+          "KilledCount": 1
+        },
+        "199709": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true
+        },
+        "200233": {
+          "Id": 80,
+          "OptionIds": [
+            366
+          ],
+          "WasRefunded": true
+        },
+        "200236": {
+          "Id": 320,
+          "OptionIds": [
+            1843
+          ],
+          "TotalDamageDealt": 31.812117,
+          "TotalDamageReceived": 40.000004
+        },
+        "200237": {
+          "Id": 62,
+          "OptionIds": [],
+          "TotalDamageDealt": 11.403135,
+          "TotalDamageReceived": 45.062614
+        },
+        "200238": {
+          "Id": 68,
+          "OptionIds": [
+            1474
+          ],
+          "TotalDamageDealt": 6.935953,
+          "TotalDamageReceived": 10.147591
+        },
+        "200239": {
+          "Id": 61,
+          "OptionIds": [
+            1476
+          ],
+          "TotalDamageDealt": 0.27076098,
+          "TotalDamageReceived": 29.999989
+        },
+        "200318": {
+          "Id": 87,
+          "OptionIds": [
+            173,
+            179
+          ],
+          "TotalDamageDealt": 2.4598777,
+          "TotalDamageReceived": 12.631983
+        },
+        "200569": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true
+        },
+        "201538": {
+          "Id": 284,
+          "OptionIds": [
+            847,
+            844,
+            836,
+            852,
+            1928
+          ],
+          "TotalDamageDealt": 92.939255,
+          "TotalDamageReceived": 25,
+          "KilledCount": 2
+        },
+        "201703": {
+          "Id": 322,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "201877": {
+          "Id": 284,
+          "OptionIds": [
+            847,
+            844,
+            836,
+            852,
+            1928
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 136.79396,
+          "BuildingDestroyedCount": 2,
+          "KilledCount": 3
+        },
+        "201883": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true
+        },
+        "202024": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            105
+          ],
+          "TotalDamageDealt": 19.000687,
+          "TotalSupplyPointsConsumed": 900
+        },
+        "202042": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            105
+          ],
+          "TotalDamageDealt": 8.807692,
+          "TotalSupplyPointsConsumed": 900,
+          "KilledCount": 1
+        },
+        "202335": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 13.627314
+        },
+        "202495": {
+          "Id": 54,
+          "OptionIds": [
+            119,
+            1792
+          ],
+          "TotalDamageDealt": 34.00885,
+          "TotalDamageReceived": 19.685797,
+          "KilledCount": 1
+        },
+        "202606": {
+          "Id": 78,
+          "OptionIds": [
+            1834
+          ],
+          "TotalDamageDealt": 8.275578,
+          "TotalDamageReceived": 19.921295
+        },
+        "202609": {
+          "Id": 63,
+          "OptionIds": [
+            1472
+          ],
+          "TotalDamageDealt": 20.102184,
+          "TotalDamageReceived": 71.71512,
+          "TotalSupplyPointsConsumed": 684
+        },
+        "202610": {
+          "Id": 63,
+          "OptionIds": [
+            1472
+          ],
+          "TotalDamageDealt": 17.128824,
+          "TotalDamageReceived": 61.885334,
+          "TotalSupplyPointsConsumed": 534,
+          "KilledCount": 1
+        },
+        "202756": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "TotalDamageDealt": 4.133032,
+          "TotalDamageReceived": 38
+        },
+        "203187": {
+          "Id": 21,
+          "OptionIds": [
+            1897,
+            1898
+          ],
+          "TotalDamageDealt": 14.709,
+          "TotalDamageReceived": 9.802078,
+          "TotalSupplyPointsConsumed": 1025
+        },
+        "203189": {
+          "Id": 61,
+          "OptionIds": [
+            1476
+          ]
+        },
+        "203204": {
+          "Id": 84,
+          "OptionIds": [
+            159,
+            151
+          ],
+          "WasRefunded": true
+        },
+        "203409": {
+          "Id": 84,
+          "OptionIds": [
+            159,
+            151
+          ],
+          "WasRefunded": true
+        },
+        "204032": {
+          "Id": 448,
+          "OptionIds": [
+            1908,
+            1911,
+            1910
+          ],
+          "TotalDamageDealt": 25.046816,
+          "KilledCount": 1
+        },
+        "204355": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 0.004459493,
+          "TotalDamageReceived": 17.685055
+        },
+        "204356": {
+          "Id": 62,
+          "OptionIds": [],
+          "TotalDamageDealt": 0.55986255,
+          "TotalDamageReceived": 45.1498
+        },
+        "204367": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 16.787416,
+          "TotalDamageReceived": 16.296131
+        },
+        "204369": {
+          "Id": 62,
+          "OptionIds": [],
+          "TotalDamageDealt": 4.8215847,
+          "TotalDamageReceived": 45.131084
+        },
+        "204398": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 5.7255716,
+          "KilledCount": 1
+        },
+        "205661": {
+          "Id": 87,
+          "OptionIds": [
+            173,
+            179
+          ],
+          "TotalDamageReceived": 13.72
+        },
+        "205904": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ]
+        },
+        "205916": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ]
+        },
+        "206249": {
+          "Id": 284,
+          "OptionIds": [
+            847,
+            844,
+            836,
+            852,
+            1928
+          ],
+          "TotalDamageReceived": 23.848583
+        },
+        "206257": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true
+        },
+        "206316": {
+          "Id": 322,
+          "OptionIds": []
+        },
+        "206507": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 13.240543,
+          "KilledCount": 1
+        },
+        "206679": {
+          "Id": 295,
+          "OptionIds": [
+            1041,
+            1046
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 108.65782,
+          "TotalDamageReceived": 19.11253,
+          "KilledCount": 6
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 22,
+      "Losses": 21,
+      "OldRating": 2155.8625,
+      "DamageDealt": 642,
+      "DamageReceived": 491,
+      "ObjectivesCaptured": 3,
+      "NewRating": 2137.704,
+      "SupplyPointsConsumed": 5969,
+      "DestructionScore": 3315,
+      "LossesScore": 3255,
+      "SupplyPointsConsumedByAllies": 265,
+      "SupplyPointsConsumedFromAllies": 1025,
+      "Medals": [
+        8
+      ],
+      "RawExpWithMultipliers": 946,
+      "RawExp": 946,
+      "TotalExp": 1446,
+      "DLRatio": 1.0184332,
+      "TeamId": 0
+    },
+    {
+      "Id": 160368,
+      "Name": "Probe",
+      "TotalSpawnedUnitScore": 11115,
+      "TotalRefundedUnitScore": 5650,
+      "UnitData": {
+        "199404": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "199405": {
+          "Id": 267,
+          "OptionIds": [
+            685,
+            689,
+            691
+          ],
+          "TotalDamageDealt": 3.5999236,
+          "TotalDamageReceived": 18.476
+        },
+        "199430": {
+          "Id": 66,
+          "OptionIds": [],
+          "TotalDamageReceived": 47.805466
+        },
+        "199431": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ],
+          "TotalDamageReceived": 2.8846154
+        },
+        "199432": {
+          "Id": 69,
+          "OptionIds": [],
+          "TotalDamageDealt": 18.84097,
+          "KilledCount": 1
+        },
+        "199433": {
+          "Id": 69,
+          "OptionIds": [],
+          "TotalDamageDealt": 89.96625,
+          "KilledCount": 3
+        },
+        "199658": {
+          "Id": 283,
+          "OptionIds": [
+            831,
+            825,
+            834
+          ],
+          "TotalDamageReceived": 33.27326
+        },
+        "199920": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true
+        },
+        "200410": {
+          "Id": 51,
+          "OptionIds": [
+            750,
+            92,
+            1988
+          ],
+          "TotalDamageReceived": 10.8
+        },
+        "200510": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ],
+          "TotalDamageDealt": 23.598068,
+          "TotalDamageReceived": 17.999306,
+          "TotalSelfDamageDealt": 0.032086078,
+          "KilledCount": 1
+        },
+        "200700": {
+          "Id": 448,
+          "OptionIds": [
+            1907,
+            1911,
+            1910
+          ],
+          "TotalDamageDealt": 42.74607,
+          "TotalDamageReceived": 14.983352,
+          "TotalSupplyPointsConsumed": 1400,
+          "KilledCount": 1
+        },
+        "200759": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "TotalDamageDealt": 60.08682,
+          "TotalDamageReceived": 25.702282,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 1
+        },
+        "201103": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 14.933629
+        },
+        "201649": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 27.059193,
+          "KilledCount": 1
+        },
+        "201858": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 29.945946,
+          "KilledCount": 2
+        },
+        "202052": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 10.952463,
+          "TotalDamageReceived": 34.142265
+        },
+        "202054": {
+          "Id": 351,
+          "OptionIds": [
+            2070
+          ],
+          "TotalDamageDealt": 26.330616,
+          "TotalDamageReceived": 56.22406,
+          "KilledCount": 2
+        },
+        "202061": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 6.85032,
+          "TotalDamageReceived": 18.848871
+        },
+        "202062": {
+          "Id": 449,
+          "OptionIds": [],
+          "TotalDamageDealt": 23.389519,
+          "TotalDamageReceived": 41.19961
+        },
+        "202425": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            104
+          ],
+          "TotalDamageDealt": 14.865038,
+          "TotalSupplyPointsConsumed": 3600,
+          "KilledCount": 1
+        },
+        "202435": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            104
+          ],
+          "TotalDamageDealt": 34.71761,
+          "TotalSupplyPointsConsumed": 3600,
+          "KilledCount": 1
+        },
+        "202446": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 14.983352,
+          "TotalDamageReceived": 12.966474,
+          "KilledCount": 1
+        },
+        "202966": {
+          "Id": 388,
+          "OptionIds": [
+            2055,
+            1786
+          ],
+          "TotalDamageDealt": 53.50474,
+          "TotalSupplyPointsConsumed": 1485,
+          "KilledCount": 3
+        },
+        "202980": {
+          "Id": 388,
+          "OptionIds": [
+            2055,
+            1786
+          ],
+          "TotalDamageDealt": 50.72641,
+          "TotalSupplyPointsConsumed": 1578,
+          "KilledCount": 1
+        },
+        "202993": {
+          "Id": 388,
+          "OptionIds": [
+            2055,
+            1786
+          ],
+          "TotalDamageDealt": 33.880974,
+          "TotalSupplyPointsConsumed": 1299
+        },
+        "203056": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "203587": {
+          "Id": 448,
+          "OptionIds": [
+            1907,
+            1911,
+            1910
+          ],
+          "TotalDamageDealt": 128,
+          "TotalSupplyPointsConsumed": 3000,
+          "KilledCount": 4
+        },
+        "203644": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "BuildingDestroyedCount": 1
+        },
+        "204066": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 30.75692,
+          "KilledCount": 2
+        },
+        "204441": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true
+        },
+        "204450": {
+          "Id": 284,
+          "OptionIds": [
+            847,
+            844,
+            838,
+            852,
+            1928
+          ],
+          "TotalDamageDealt": 16,
+          "TotalDamageReceived": 25
+        },
+        "204736": {
+          "Id": 448,
+          "OptionIds": [
+            1907,
+            1911,
+            1910
+          ],
+          "TotalDamageDealt": 32,
+          "TotalDamageReceived": 12.699422,
+          "TotalSupplyPointsConsumed": 1000,
+          "KilledCount": 1
+        },
+        "205033": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "205085": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 14.933629
+        },
+        "205100": {
+          "Id": 284,
+          "OptionIds": [
+            847,
+            844,
+            838,
+            852,
+            1928
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 199.47078,
+          "KilledCount": 4
+        },
+        "205631": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "205665": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ],
+          "TotalDamageDealt": 46.350697,
+          "TotalDamageReceived": 29.279985,
+          "TotalSupplyPointsConsumed": 1101,
+          "TotalSelfDamageDealt": 0.012255705,
+          "KilledCount": 1
+        },
+        "205833": {
+          "Id": 267,
+          "OptionIds": [
+            685,
+            689,
+            691
+          ],
+          "TotalDamageReceived": 8.367653
+        },
+        "205862": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "BuildingDestroyedCount": 2
+        },
+        "206119": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 51.543617,
+          "BuildingDestroyedCount": 3,
+          "KilledCount": 2
+        },
+        "206453": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 9.547365
+        },
+        "206526": {
+          "Id": 21,
+          "OptionIds": [
+            1897,
+            1898
+          ]
+        },
+        "206528": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ]
+        },
+        "206685": {
+          "Id": 19,
+          "OptionIds": [
+            141,
+            139
+          ],
+          "TotalDamageReceived": 8.637557,
+          "TotalSupplyPointsConsumed": 1725
+        },
+        "206762": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 23.135326,
+          "TotalDamageReceived": 6.997029
+        },
+        "206765": {
+          "Id": 351,
+          "OptionIds": [
+            2070
+          ],
+          "TotalDamageDealt": 1.8675537,
+          "KilledCount": 1
+        },
+        "206777": {
+          "Id": 22,
+          "OptionIds": [
+            15,
+            1894
+          ],
+          "TotalDamageDealt": 19.465282,
+          "TotalDamageReceived": 23.806225,
+          "KilledCount": 1
+        },
+        "206782": {
+          "Id": 449,
+          "OptionIds": [],
+          "TotalDamageDealt": 5.015955
+        },
+        "207103": {
+          "Id": 20,
+          "OptionIds": [
+            1936,
+            1934
+          ]
+        },
+        "207147": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ]
+        },
+        "207233": {
+          "Id": 267,
+          "OptionIds": [
+            685,
+            689,
+            691
+          ]
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 35,
+      "Losses": 16,
+      "OldRating": 2162.9666,
+      "DamageDealt": 996,
+      "DamageReceived": 379,
+      "ObjectivesCaptured": 1,
+      "NewRating": 2144.316,
+      "SupplyPointsConsumed": 19788,
+      "DestructionScore": 4430,
+      "LossesScore": 2945,
+      "SupplyPointsConsumedByAllies": 1342,
+      "Medals": [
+        0,
+        6
+      ],
+      "RawExpWithMultipliers": 1031,
+      "RawExp": 1031,
+      "TotalExp": 1531,
+      "DLRatio": 1.5042444,
+      "TeamId": 0
+    },
+    {
+      "Id": 7720,
+      "Name": "NeoBerekov",
+      "TotalSpawnedUnitScore": 9760,
+      "TotalRefundedUnitScore": 2630,
+      "UnitData": {
+        "199399": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "WasRefunded": true
+        },
+        "199400": {
+          "Id": 283,
+          "OptionIds": [
+            831,
+            825,
+            834
+          ],
+          "TotalDamageDealt": 48,
+          "TotalDamageReceived": 24.901752,
+          "KilledCount": 1
+        },
+        "199422": {
+          "Id": 69,
+          "OptionIds": [],
+          "TotalDamageDealt": 8.597907,
+          "TotalDamageReceived": 20.003382
+        },
+        "199423": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ],
+          "TotalDamageReceived": 15.166883
+        },
+        "199465": {
+          "Id": 24,
+          "OptionIds": [
+            1933,
+            1931
+          ],
+          "TotalDamageDealt": 35.20108,
+          "TotalDamageReceived": 17.4,
+          "KilledCount": 1
+        },
+        "199494": {
+          "Id": 24,
+          "OptionIds": [
+            1933,
+            1931
+          ],
+          "TotalDamageDealt": 51.91523,
+          "TotalDamageReceived": 19.474342,
+          "KilledCount": 1
+        },
+        "199542": {
+          "Id": 21,
+          "OptionIds": [
+            1897,
+            1898
+          ],
+          "TotalDamageDealt": 26.623688,
+          "TotalDamageReceived": 17.4,
+          "TotalSupplyPointsConsumed": 300,
+          "KilledCount": 1
+        },
+        "199549": {
+          "Id": 277,
+          "OptionIds": [],
+          "TotalDamageDealt": 0.0011160568,
+          "TotalDamageReceived": 30.303946
+        },
+        "199974": {
+          "Id": 8,
+          "OptionIds": [
+            348,
+            350
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 33.18239,
+          "TotalDamageReceived": 6.4716983,
+          "KilledCount": 1
+        },
+        "199984": {
+          "Id": 267,
+          "OptionIds": [
+            685,
+            689,
+            691
+          ],
+          "TotalDamageDealt": 7.876923,
+          "TotalSupplyPointsConsumed": 200
+        },
+        "200000": {
+          "Id": 322,
+          "OptionIds": [],
+          "TotalDamageReceived": 5.0584693
+        },
+        "200483": {
+          "Id": 284,
+          "OptionIds": [
+            849,
+            844,
+            838,
+            852,
+            1928
+          ],
+          "TotalDamageReceived": 36
+        },
+        "200633": {
+          "Id": 322,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "200845": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "TotalDamageDealt": 3.3505883,
+          "TotalDamageReceived": 9.998766
+        },
+        "200846": {
+          "Id": 351,
+          "OptionIds": [
+            2070
+          ],
+          "TotalDamageDealt": 8.100256,
+          "TotalDamageReceived": 70.77629
+        },
+        "200867": {
+          "Id": 183,
+          "OptionIds": [
+            381,
+            1462
+          ],
+          "TotalDamageDealt": 5.074602,
+          "TotalDamageReceived": 22.846943
+        },
+        "200892": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 0.15999207
+        },
+        "200894": {
+          "Id": 351,
+          "OptionIds": [
+            2070
+          ],
+          "TotalDamageDealt": 8.325266,
+          "TotalDamageReceived": 44.10633,
+          "TotalSelfDamageDealt": 1.3076923
+        },
+        "201562": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 20.359785
+        },
+        "201850": {
+          "Id": 284,
+          "OptionIds": [
+            849,
+            844,
+            838,
+            852,
+            1928
+          ],
+          "TotalDamageReceived": 25
+        },
+        "201943": {
+          "Id": 322,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "202173": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "202174": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ],
+          "TotalDamageReceived": 2.6727881
+        },
+        "202175": {
+          "Id": 62,
+          "OptionIds": [],
+          "TotalDamageDealt": 20.074837,
+          "TotalDamageReceived": 0.7980885,
+          "TotalSupplyPointsConsumed": 147
+        },
+        "202176": {
+          "Id": 66,
+          "OptionIds": [],
+          "TotalDamageDealt": 32.233,
+          "TotalDamageReceived": 3.3206882,
+          "TotalSupplyPointsConsumed": 676,
+          "KilledCount": 2
+        },
+        "202211": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "WasRefunded": true
+        },
+        "202265": {
+          "Id": 183,
+          "OptionIds": [
+            381,
+            1462
+          ],
+          "TotalDamageDealt": 5.695111,
+          "TotalDamageReceived": 28.57093,
+          "TotalSupplyPointsConsumed": 770
+        },
+        "202611": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            104
+          ],
+          "TotalDamageDealt": 34.692123,
+          "TotalSupplyPointsConsumed": 3827
+        },
+        "202621": {
+          "Id": 11,
+          "OptionIds": [
+            111,
+            104
+          ],
+          "TotalDamageDealt": 57.841087,
+          "TotalSupplyPointsConsumed": 3685
+        },
+        "202812": {
+          "Id": 183,
+          "OptionIds": [
+            381,
+            1462
+          ],
+          "TotalDamageDealt": 24.98053,
+          "TotalDamageReceived": 8.842794,
+          "TotalSupplyPointsConsumed": 986
+        },
+        "203112": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "203315": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "TotalDamageDealt": 11.513875,
+          "TotalDamageReceived": 36
+        },
+        "203427": {
+          "Id": 323,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "203546": {
+          "Id": 448,
+          "OptionIds": [
+            1906,
+            1911,
+            1910
+          ],
+          "TotalDamageDealt": 48,
+          "TotalSupplyPointsConsumed": 800,
+          "KilledCount": 3
+        },
+        "203568": {
+          "Id": 448,
+          "OptionIds": [
+            1906,
+            1911,
+            1910
+          ],
+          "TotalDamageReceived": 14.936748,
+          "TotalSupplyPointsConsumed": 600
+        },
+        "203702": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "TotalDamageDealt": 16,
+          "TotalDamageReceived": 25.645107
+        },
+        "203830": {
+          "Id": 322,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "204010": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "WasRefunded": true
+        },
+        "204670": {
+          "Id": 267,
+          "OptionIds": [
+            685,
+            689,
+            691
+          ]
+        },
+        "204688": {
+          "Id": 453,
+          "OptionIds": [
+            1949,
+            1951
+          ],
+          "TotalDamageDealt": 48.825836,
+          "TotalDamageReceived": 20.954403,
+          "TotalSelfDamageDealt": 0.023455262,
+          "KilledCount": 1
+        },
+        "204725": {
+          "Id": 283,
+          "OptionIds": [
+            831,
+            825,
+            834
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 16.497423
+        },
+        "204767": {
+          "Id": 270,
+          "OptionIds": [
+            701,
+            705,
+            708
+          ],
+          "TotalDamageReceived": 5.7375584
+        },
+        "205144": {
+          "Id": 286,
+          "OptionIds": [
+            882,
+            875
+          ],
+          "TotalDamageDealt": 5.142407,
+          "TotalDamageReceived": 36
+        },
+        "205240": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "TotalDamageReceived": 14.084338
+        },
+        "205242": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ]
+        },
+        "205243": {
+          "Id": 278,
+          "OptionIds": [
+            1484
+          ],
+          "TotalDamageReceived": 7.125313
+        },
+        "205494": {
+          "Id": 322,
+          "OptionIds": []
+        },
+        "205595": {
+          "Id": 82,
+          "OptionIds": [
+            756
+          ],
+          "WasRefunded": true
+        },
+        "205903": {
+          "Id": 33,
+          "OptionIds": [
+            34,
+            1895
+          ],
+          "TotalDamageReceived": 3.0106237,
+          "TotalSupplyPointsConsumed": 224
+        },
+        "205906": {
+          "Id": 449,
+          "OptionIds": [],
+          "TotalDamageDealt": 39.766323,
+          "TotalDamageReceived": 4.5002203,
+          "TotalSupplyPointsConsumed": 234,
+          "KilledCount": 2
+        },
+        "205982": {
+          "Id": 284,
+          "OptionIds": [
+            849,
+            844,
+            838,
+            852,
+            1928
+          ],
+          "TotalDamageReceived": 25
+        },
+        "206097": {
+          "Id": 322,
+          "OptionIds": []
+        },
+        "206256": {
+          "Id": 8,
+          "OptionIds": [
+            348,
+            350
+          ]
+        },
+        "206279": {
+          "Id": 242,
+          "OptionIds": [
+            582,
+            586
+          ],
+          "WasRefunded": true
+        },
+        "206405": {
+          "Id": 183,
+          "OptionIds": [
+            381,
+            1462
+          ]
+        },
+        "207054": {
+          "Id": 289,
+          "OptionIds": [
+            973,
+            1900,
+            2105,
+            1902
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 42.227654,
+          "KilledCount": 1
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 14,
+      "Losses": 22,
+      "OldRating": 2144.8735,
+      "DamageDealt": 527,
+      "DamageReceived": 511,
+      "ObjectivesCaptured": 3,
+      "NewRating": 2127.465,
+      "SupplyPointsConsumed": 12449,
+      "DestructionScore": 2425,
+      "LossesScore": 4440,
+      "SupplyPointsConsumedByAllies": 1025,
+      "Medals": [],
+      "RawExpWithMultipliers": 784,
+      "RawExp": 784,
+      "TotalExp": 784,
+      "DLRatio": 0.5461712,
+      "TeamId": 0
+    },
+    {
+      "Id": 209525,
+      "Name": "Clément",
+      "TotalSpawnedUnitScore": 8345,
+      "TotalRefundedUnitScore": 1630,
+      "UnitData": {
+        "199401": {
+          "Id": 392,
+          "OptionIds": [
+            1813
+          ],
+          "TotalDamageReceived": 10.998045
+        },
+        "199424": {
+          "Id": 276,
+          "OptionIds": [
+            1489
+          ],
+          "TotalDamageDealt": 8,
+          "TotalDamageReceived": 38.245056,
+          "KilledCount": 1
+        },
+        "199425": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 10.449981,
+          "TotalDamageReceived": 33.688007
+        },
+        "199468": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 35.019024,
+          "TotalDamageReceived": 76.66968,
+          "KilledCount": 1
+        },
+        "199497": {
+          "Id": 41,
+          "OptionIds": [
+            64,
+            2082
+          ],
+          "TotalDamageDealt": 30.25148,
+          "TotalDamageReceived": 61.075504,
+          "TotalSupplyPointsConsumed": 3597
+        },
+        "199510": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 21.764278,
+          "TotalDamageReceived": 60.70461,
+          "KilledCount": 1
+        },
+        "199573": {
+          "Id": 16,
+          "OptionIds": [
+            35,
+            38,
+            1755
+          ],
+          "TotalDamageReceived": 44.17411
+        },
+        "199578": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 13.809582,
+          "TotalDamageReceived": 72.80356,
+          "TotalSupplyPointsConsumed": 1014
+        },
+        "199694": {
+          "Id": 297,
+          "OptionIds": [
+            1977,
+            1978
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 16,
+          "KilledCount": 1
+        },
+        "200230": {
+          "Id": 245,
+          "OptionIds": [
+            599
+          ],
+          "TotalDamageReceived": 19.256437
+        },
+        "200336": {
+          "Id": 106,
+          "OptionIds": [
+            1524,
+            1527
+          ],
+          "TotalDamageDealt": 29.975948,
+          "TotalSupplyPointsConsumed": 200,
+          "KilledCount": 2
+        },
+        "200506": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "200522": {
+          "Id": 27,
+          "OptionIds": [
+            17,
+            55,
+            1966
+          ],
+          "TotalDamageReceived": 69.24979
+        },
+        "200597": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 10.261502,
+          "TotalDamageReceived": 34.26671,
+          "TotalSupplyPointsConsumed": 1340
+        },
+        "200712": {
+          "Id": 251,
+          "OptionIds": [
+            749,
+            614,
+            618
+          ],
+          "TotalDamageReceived": 14.983352
+        },
+        "201385": {
+          "Id": 37,
+          "OptionIds": [
+            1764,
+            1766,
+            1768
+          ],
+          "TotalDamageDealt": 1.25,
+          "TotalDamageReceived": 27.324081
+        },
+        "201386": {
+          "Id": 65,
+          "OptionIds": [],
+          "TotalDamageDealt": 10.717735,
+          "TotalDamageReceived": 28.383621,
+          "TotalSupplyPointsConsumed": 329
+        },
+        "201655": {
+          "Id": 79,
+          "OptionIds": [
+            235
+          ],
+          "WasRefunded": true
+        },
+        "201661": {
+          "Id": 76,
+          "OptionIds": [
+            1482
+          ],
+          "TotalDamageReceived": 18.835382
+        },
+        "202261": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "202441": {
+          "Id": 162,
+          "OptionIds": [
+            305,
+            306
+          ],
+          "TotalDamageDealt": 12.089365,
+          "TotalDamageReceived": 9.945783,
+          "TotalSupplyPointsConsumed": 1680
+        },
+        "202448": {
+          "Id": 162,
+          "OptionIds": [
+            305,
+            306
+          ],
+          "TotalDamageDealt": 12.299717,
+          "TotalDamageReceived": 12.704365,
+          "TotalSupplyPointsConsumed": 1967
+        },
+        "202476": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "202643": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 9.856195,
+          "TotalDamageReceived": 21.881676
+        },
+        "202965": {
+          "Id": 457,
+          "OptionIds": [
+            1963,
+            1965
+          ],
+          "TotalDamageDealt": 41.528587,
+          "TotalDamageReceived": 13.184804,
+          "TotalSupplyPointsConsumed": 2403
+        },
+        "203023": {
+          "Id": 392,
+          "OptionIds": [
+            1813
+          ],
+          "TotalDamageReceived": 65.39703
+        },
+        "203025": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageReceived": 68.94015
+        },
+        "203125": {
+          "Id": 41,
+          "OptionIds": [
+            64,
+            2082
+          ],
+          "TotalDamageDealt": 56.29117,
+          "TotalDamageReceived": 17.673222,
+          "KilledCount": 2
+        },
+        "203126": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 18.137203,
+          "TotalDamageReceived": 30.131392
+        },
+        "203127": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 18.867455,
+          "TotalDamageReceived": 30.000004,
+          "KilledCount": 1
+        },
+        "203170": {
+          "Id": 37,
+          "OptionIds": [
+            1764,
+            1766,
+            1768
+          ],
+          "TotalDamageDealt": 19.723536,
+          "TotalDamageReceived": 28.306974
+        },
+        "203175": {
+          "Id": 65,
+          "OptionIds": [],
+          "TotalDamageDealt": 1.9989374,
+          "TotalDamageReceived": 17.034605
+        },
+        "203199": {
+          "Id": 245,
+          "OptionIds": [
+            599
+          ],
+          "TotalDamageDealt": 39.562656,
+          "TotalDamageReceived": 24.808954,
+          "KilledCount": 2
+        },
+        "203694": {
+          "Id": 251,
+          "OptionIds": [
+            749,
+            614,
+            618
+          ],
+          "TotalDamageDealt": 23.600864,
+          "TotalDamageReceived": 18.2759,
+          "KilledCount": 1
+        },
+        "204166": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 32.508286,
+          "TotalDamageReceived": 32.080475,
+          "KilledCount": 1
+        },
+        "204183": {
+          "Id": 392,
+          "OptionIds": [
+            1813
+          ],
+          "TotalDamageReceived": 34.667618
+        },
+        "204185": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 20.851389,
+          "TotalDamageReceived": 72.222115
+        },
+        "204211": {
+          "Id": 392,
+          "OptionIds": [
+            1812
+          ],
+          "TotalDamageReceived": 48.748383
+        },
+        "204213": {
+          "Id": 74,
+          "OptionIds": [
+            1848
+          ],
+          "TotalDamageDealt": 19.008343,
+          "TotalDamageReceived": 30.278015,
+          "KilledCount": 1
+        },
+        "204214": {
+          "Id": 74,
+          "OptionIds": [
+            1848
+          ],
+          "TotalDamageDealt": 23.298874,
+          "TotalDamageReceived": 8.174621,
+          "KilledCount": 1
+        },
+        "204891": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true,
+          "BuildingDestroyedCount": 1
+        },
+        "204976": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ],
+          "WasRefunded": true
+        },
+        "205210": {
+          "Id": 106,
+          "OptionIds": [
+            1524,
+            1527
+          ],
+          "TotalDamageReceived": 10.368015
+        },
+        "205301": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageDealt": 7.171202,
+          "TotalDamageReceived": 10.52117,
+          "TotalSupplyPointsConsumed": 1066
+        },
+        "205312": {
+          "Id": 41,
+          "OptionIds": [
+            64,
+            2082
+          ],
+          "TotalDamageDealt": 0.765301,
+          "TotalDamageReceived": 18.888004
+        },
+        "205314": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 18.789154,
+          "TotalDamageReceived": 60.412094
+        },
+        "205410": {
+          "Id": 251,
+          "OptionIds": [
+            749,
+            614,
+            618
+          ],
+          "TotalDamageDealt": 10.887636
+        },
+        "205479": {
+          "Id": 297,
+          "OptionIds": [
+            1977,
+            1978
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 5.310008
+        },
+        "205845": {
+          "Id": 16,
+          "OptionIds": [
+            35,
+            38,
+            1755
+          ],
+          "TotalDamageReceived": 19.843214
+        },
+        "205847": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 11.270067,
+          "TotalDamageReceived": 30.230366
+        },
+        "205855": {
+          "Id": 16,
+          "OptionIds": [
+            35,
+            38,
+            1755
+          ],
+          "TotalDamageDealt": 4.447236,
+          "TotalDamageReceived": 14.722673
+        },
+        "205857": {
+          "Id": 146,
+          "OptionIds": [],
+          "TotalDamageDealt": 1.607062,
+          "TotalDamageReceived": 29.949144
+        },
+        "205891": {
+          "Id": 37,
+          "OptionIds": [
+            1764,
+            1766,
+            1768
+          ],
+          "TotalDamageDealt": 33.883278,
+          "TotalDamageReceived": 21.080118,
+          "KilledCount": 1
+        },
+        "205893": {
+          "Id": 65,
+          "OptionIds": [],
+          "TotalDamageDealt": 1.0002533,
+          "TotalDamageReceived": 15.851733
+        },
+        "206294": {
+          "Id": 298,
+          "OptionIds": [
+            1427
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 11.539359
+        },
+        "206633": {
+          "Id": 245,
+          "OptionIds": [
+            599
+          ]
+        },
+        "206643": {
+          "Id": 187,
+          "OptionIds": [
+            396
+          ],
+          "TotalDamageReceived": 25.54585
+        },
+        "206710": {
+          "Id": 392,
+          "OptionIds": [
+            1813
+          ]
+        },
+        "206712": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ],
+          "TotalDamageDealt": 16.976635,
+          "KilledCount": 1
+        },
+        "206814": {
+          "Id": 294,
+          "OptionIds": [
+            1028,
+            1033
+          ],
+          "TotalDamageDealt": 16,
+          "TotalDamageReceived": 31.683975,
+          "KilledCount": 1
+        },
+        "206866": {
+          "Id": 41,
+          "OptionIds": [
+            64,
+            2082
+          ]
+        },
+        "206867": {
+          "Id": 150,
+          "OptionIds": [
+            1849
+          ]
+        },
+        "206896": {
+          "Id": 16,
+          "OptionIds": [
+            35,
+            38,
+            1755
+          ]
+        },
+        "206898": {
+          "Id": 146,
+          "OptionIds": []
+        },
+        "206903": {
+          "Id": 322,
+          "OptionIds": [],
+          "TotalDamageReceived": 13.385942
+        },
+        "207061": {
+          "Id": 246,
+          "OptionIds": [
+            600
+          ]
+        },
+        "207064": {
+          "Id": 190,
+          "OptionIds": [
+            409
+          ]
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 18,
+      "Losses": 42,
+      "OldRating": 2107.3218,
+      "DamageDealt": 508,
+      "DamageReceived": 1256,
+      "NewRating": 2092.3564,
+      "SupplyPointsConsumed": 13596,
+      "DestructionScore": 2465,
+      "LossesScore": 4465,
+      "SupplyPointsConsumedFromAllies": 1342,
+      "Medals": [],
+      "RawExpWithMultipliers": 436,
+      "RawExp": 436,
+      "TotalExp": 436,
+      "DLRatio": 0.5520717,
+      "TeamId": 0
+    },
+    {
+      "Id": 78727,
+      "TeamId": 1,
+      "Name": "=O.W.L.S=Supr. ε_CoolLove",
+      "TotalSpawnedUnitScore": 4820,
+      "TotalRefundedUnitScore": 1015,
+      "UnitData": {
+        "200094": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "200098": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ]
+        },
+        "200099": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ]
+        },
+        "200100": {
+          "Id": 459,
+          "OptionIds": [
+            1976
+          ]
+        },
+        "200101": {
+          "Id": 459,
+          "OptionIds": [
+            1976
+          ],
+          "TotalDamageDealt": 9,
+          "TotalDamageReceived": 30.472713,
+          "TotalSupplyPointsConsumed": 759
+        },
+        "200102": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ],
+          "TotalDamageReceived": 4.995504,
+          "TotalSupplyPointsConsumed": 114
+        },
+        "200198": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageReceived": 25.620773
+        },
+        "200199": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 13.898869,
+          "TotalDamageReceived": 31.810635,
+          "TotalSupplyPointsConsumed": 869,
+          "KilledCount": 1
+        },
+        "200393": {
+          "Id": 31,
+          "OptionIds": [
+            372
+          ],
+          "TotalDamageReceived": 14.983352
+        },
+        "200473": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true
+        },
+        "200474": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 19.474342,
+          "TotalDamageReceived": 21.138733,
+          "TotalSupplyPointsConsumed": 648,
+          "KilledCount": 1
+        },
+        "200475": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ],
+          "TotalDamageReceived": 20.199564
+        },
+        "200566": {
+          "Id": 211,
+          "OptionIds": [
+            482
+          ],
+          "TotalDamageDealt": 67.45968,
+          "TotalDamageReceived": 24.466139,
+          "TotalSupplyPointsConsumed": 806,
+          "KilledCount": 4
+        },
+        "200948": {
+          "Id": 239,
+          "OptionIds": [
+            571
+          ],
+          "TotalDamageDealt": 73.34157,
+          "TotalDamageReceived": 33.299984,
+          "TotalSupplyPointsConsumed": 3598,
+          "KilledCount": 2
+        },
+        "201611": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "201613": {
+          "Id": 401,
+          "OptionIds": [],
+          "TotalDamageDealt": 10.299032,
+          "TotalDamageReceived": 1.7373174,
+          "TotalSupplyPointsConsumed": 272,
+          "TotalSelfDamageDealt": 4.8461537
+        },
+        "201614": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 33.807297,
+          "TotalDamageReceived": 6.587947,
+          "TotalSupplyPointsConsumed": 460,
+          "KilledCount": 1
+        },
+        "201615": {
+          "Id": 133,
+          "OptionIds": []
+        },
+        "201750": {
+          "Id": 310,
+          "OptionIds": [
+            1281,
+            1273,
+            1267
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 62.57381,
+          "BuildingDestroyedCount": 9,
+          "KilledCount": 1
+        },
+        "202178": {
+          "Id": 31,
+          "OptionIds": [
+            372
+          ],
+          "TotalDamageReceived": 14.983352
+        },
+        "202190": {
+          "Id": 231,
+          "OptionIds": [
+            543
+          ],
+          "TotalDamageDealt": 19,
+          "TotalSupplyPointsConsumed": 1400
+        },
+        "202200": {
+          "Id": 231,
+          "OptionIds": [
+            543
+          ],
+          "TotalDamageDealt": 50.683975,
+          "TotalSupplyPointsConsumed": 1400,
+          "KilledCount": 2
+        },
+        "202566": {
+          "Id": 254,
+          "OptionIds": [
+            643,
+            645
+          ],
+          "TotalDamageDealt": 35.75807,
+          "TotalDamageReceived": 17.944685,
+          "TotalSupplyPointsConsumed": 921,
+          "TotalSelfDamageDealt": 1.8181278,
+          "KilledCount": 2
+        },
+        "202567": {
+          "Id": 133,
+          "OptionIds": [],
+          "TotalDamageDealt": 15.097515,
+          "TotalDamageReceived": 41.54875,
+          "KilledCount": 1
+        },
+        "202679": {
+          "Id": 217,
+          "OptionIds": [
+            512,
+            508
+          ],
+          "TotalDamageDealt": 6.630971
+        },
+        "202764": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ]
+        },
+        "203273": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            637
+          ],
+          "TotalDamageDealt": 10.601943,
+          "TotalDamageReceived": 23.065525,
+          "TotalSupplyPointsConsumed": 327
+        },
+        "203274": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 6.889241,
+          "TotalDamageReceived": 40.78337,
+          "KilledCount": 1
+        },
+        "203384": {
+          "Id": 306,
+          "OptionIds": [
+            1195,
+            1185,
+            1175
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 14.678899,
+          "KilledCount": 1
+        },
+        "203671": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 7.876923
+        },
+        "203673": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ]
+        },
+        "203674": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageReceived": 15.012469
+        },
+        "203675": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ]
+        },
+        "204217": {
+          "Id": 232,
+          "OptionIds": [
+            545
+          ],
+          "TotalDamageDealt": 20.742132,
+          "TotalSupplyPointsConsumed": 1893
+        },
+        "204747": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageReceived": 31.477615,
+          "TotalSupplyPointsConsumed": 865
+        },
+        "204749": {
+          "Id": 353,
+          "OptionIds": []
+        },
+        "204750": {
+          "Id": 353,
+          "OptionIds": []
+        },
+        "205605": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "206186": {
+          "Id": 31,
+          "OptionIds": [
+            372
+          ],
+          "TotalDamageDealt": 5.7375584
+        }
+      },
+      "TransferredUnits": {
+        "199575": {
+          "Id": 369,
+          "OptionIds": []
+        },
+        "199596": {
+          "Id": 60,
+          "OptionIds": []
+        },
+        "199613": {
+          "Id": 60,
+          "OptionIds": []
+        },
+        "199651": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ]
+        },
+        "200567": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ]
+        },
+        "201570": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ]
+        },
+        "202070": {
+          "Id": 93,
+          "OptionIds": [
+            1981
+          ]
+        },
+        "202587": {
+          "Id": 233,
+          "OptionIds": [
+            548
+          ]
+        },
+        "202972": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ]
+        }
+      },
+      "Destruction": 17,
+      "Losses": 10,
+      "OldRating": 2235.6582,
+      "DamageDealt": 359,
+      "DamageReceived": 309,
+      "ObjectivesCaptured": 4,
+      "NewRating": 2260.0454,
+      "SupplyPointsConsumed": 14332,
+      "DestructionScore": 2315,
+      "LossesScore": 1160,
+      "SupplyPointsConsumedByAllies": 1047,
+      "SupplyPointsConsumedFromAllies": 112,
+      "Medals": [
+        7
+      ],
+      "RawExpWithMultipliers": 3048,
+      "RawExp": 1016,
+      "TotalExp": 3298,
+      "DLRatio": 1.9956896
+    },
+    {
+      "Id": 287710,
+      "TeamId": 1,
+      "Name": "Zigen",
+      "TotalSpawnedUnitScore": 8005,
+      "TotalRefundedUnitScore": 3405,
+      "UnitData": {
+        "199393": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 4.5894375,
+          "TotalDamageReceived": 1.25
+        },
+        "199406": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 55.738228,
+          "TotalDamageReceived": 58.3482,
+          "TotalSupplyPointsConsumed": 558,
+          "KilledCount": 1
+        },
+        "199459": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageDealt": 31.798046,
+          "TotalDamageReceived": 17.992538,
+          "KilledCount": 1
+        },
+        "199461": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 15.034978,
+          "TotalDamageReceived": 37.279396,
+          "TotalSelfDamageDealt": 2.2999053
+        },
+        "199489": {
+          "Id": 23,
+          "OptionIds": [
+            270
+          ],
+          "WasRefunded": true
+        },
+        "199491": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ]
+        },
+        "199539": {
+          "Id": 89,
+          "OptionIds": [
+            182
+          ],
+          "TotalDamageDealt": 13.220914,
+          "TotalDamageReceived": 18.64366,
+          "KilledCount": 1
+        },
+        "199544": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageReceived": 4.987531
+        },
+        "199571": {
+          "Id": 94,
+          "OptionIds": [
+            1739
+          ]
+        },
+        "199593": {
+          "Id": 466,
+          "OptionIds": [
+            2045
+          ],
+          "TotalDamageDealt": 16.273281,
+          "TotalDamageReceived": 10.555938,
+          "TotalSupplyPointsConsumed": 799,
+          "KilledCount": 1
+        },
+        "199941": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "199949": {
+          "Id": 93,
+          "OptionIds": [
+            1981
+          ],
+          "TotalDamageDealt": 158.33984,
+          "TotalSupplyPointsConsumed": 8710,
+          "BuildingDestroyedCount": 3,
+          "KilledCount": 5
+        },
+        "200461": {
+          "Id": 23,
+          "OptionIds": [
+            270
+          ],
+          "WasRefunded": true
+        },
+        "200463": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageReceived": 22.194565
+        },
+        "200573": {
+          "Id": 44,
+          "OptionIds": [
+            1105,
+            1112
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 28.646154,
+          "KilledCount": 1
+        },
+        "200781": {
+          "Id": 93,
+          "OptionIds": [
+            1981
+          ],
+          "TotalDamageDealt": 206.82188,
+          "TotalSupplyPointsConsumed": 10282,
+          "BuildingDestroyedCount": 2,
+          "KilledCount": 8
+        },
+        "201432": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "201457": {
+          "Id": 309,
+          "OptionIds": [
+            1263,
+            1256,
+            1249
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 29.966703,
+          "KilledCount": 2
+        },
+        "201828": {
+          "Id": 466,
+          "OptionIds": [
+            2045
+          ],
+          "TotalDamageDealt": 22.707893,
+          "TotalDamageFriendlyFireDealt": 0.194053,
+          "TotalDamageReceived": 13.240543,
+          "TotalSupplyPointsConsumed": 2483
+        },
+        "202008": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageDealt": 19.563795,
+          "TotalDamageReceived": 16.346153
+        },
+        "202011": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 11.357705,
+          "TotalDamageReceived": 29.315552
+        },
+        "202022": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageDealt": 50.204144,
+          "TotalDamageReceived": 21.344818,
+          "TotalSelfDamageDealt": 0.73141164,
+          "KilledCount": 1
+        },
+        "202023": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 18.226528,
+          "TotalDamageReceived": 35.670284,
+          "TotalSelfDamageDealt": 4.4967246
+        },
+        "202298": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "202387": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "202665": {
+          "Id": 168,
+          "OptionIds": [
+            1167,
+            1169,
+            2004,
+            1134
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 70.4877,
+          "BuildingDestroyedCount": 2,
+          "KilledCount": 4
+        },
+        "202852": {
+          "Id": 151,
+          "OptionIds": [
+            275,
+            2089
+          ],
+          "TotalDamageDealt": 13.966814,
+          "TotalDamageReceived": 20.700163,
+          "KilledCount": 1
+        },
+        "203017": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 14.789109
+        },
+        "203019": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 12.143195,
+          "TotalDamageReceived": 40.086006
+        },
+        "203030": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageDealt": 0.05034183,
+          "TotalDamageReceived": 17.992538
+        },
+        "203032": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 18.511076,
+          "TotalDamageReceived": 40.00184
+        },
+        "203163": {
+          "Id": 142,
+          "OptionIds": [
+            1432,
+            2092
+          ],
+          "TotalDamageDealt": 20.09288,
+          "TotalDamageReceived": 32.087013,
+          "TotalSupplyPointsConsumed": 1149,
+          "KilledCount": 1
+        },
+        "203164": {
+          "Id": 108,
+          "OptionIds": [],
+          "TotalDamageDealt": 77.35216,
+          "TotalDamageReceived": 21.865726,
+          "TotalSupplyPointsConsumed": 401,
+          "KilledCount": 3
+        },
+        "203165": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 40.39534,
+          "TotalDamageReceived": 37.17033,
+          "TotalSupplyPointsConsumed": 415,
+          "KilledCount": 2
+        },
+        "203166": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 33.157513,
+          "TotalDamageReceived": 20.851389,
+          "KilledCount": 1
+        },
+        "203318": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "203501": {
+          "Id": 309,
+          "OptionIds": [
+            1263,
+            1256,
+            1249
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 14.983352,
+          "KilledCount": 1
+        },
+        "204260": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageDealt": 13.927353,
+          "TotalDamageReceived": 27.329586
+        },
+        "204262": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 19.961903,
+          "TotalDamageReceived": 20.685299,
+          "TotalSupplyPointsConsumed": 592,
+          "KilledCount": 2
+        },
+        "204268": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "TotalDamageReceived": 25.20118
+        },
+        "204271": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 0.13202934,
+          "TotalDamageReceived": 37.49856,
+          "TotalSupplyPointsConsumed": 1212
+        },
+        "204276": {
+          "Id": 168,
+          "OptionIds": [
+            1167,
+            1169,
+            2004,
+            1134
+          ],
+          "TotalDamageDealt": 31.554983,
+          "TotalDamageReceived": 23.600864,
+          "KilledCount": 1
+        },
+        "204385": {
+          "Id": 326,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "204470": {
+          "Id": 151,
+          "OptionIds": [
+            275,
+            2089
+          ]
+        },
+        "204638": {
+          "Id": 168,
+          "OptionIds": [
+            1167,
+            1169,
+            2004,
+            1134
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 144.82251,
+          "KilledCount": 3
+        },
+        "204772": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "205252": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 10.52117
+        },
+        "205254": {
+          "Id": 130,
+          "OptionIds": [
+            1839
+          ],
+          "TotalDamageDealt": 48.901237,
+          "TotalDamageReceived": 35.824974,
+          "TotalSupplyPointsConsumed": 1147
+        },
+        "205264": {
+          "Id": 1,
+          "OptionIds": [
+            503,
+            505
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 9.994437,
+          "TotalDamageReceived": 3.5107074,
+          "KilledCount": 1
+        },
+        "205266": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 75.43176,
+          "TotalDamageReceived": 26.558994,
+          "TotalSupplyPointsConsumed": 787,
+          "KilledCount": 3
+        },
+        "205604": {
+          "Id": 309,
+          "OptionIds": [
+            1263,
+            1256,
+            1249
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 3.6510973
+        },
+        "205760": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "205946": {
+          "Id": 23,
+          "OptionIds": [
+            270
+          ],
+          "WasRefunded": true
+        },
+        "205949": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageReceived": 4.987531
+        },
+        "206309": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "206401": {
+          "Id": 151,
+          "OptionIds": [
+            275,
+            2089
+          ],
+          "TotalDamageDealt": 25.54585,
+          "KilledCount": 1
+        },
+        "206527": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "206619": {
+          "Id": 166,
+          "OptionIds": []
+        },
+        "206704": {
+          "Id": 142,
+          "OptionIds": [
+            1432,
+            2092
+          ]
+        },
+        "206705": {
+          "Id": 108,
+          "OptionIds": []
+        },
+        "206706": {
+          "Id": 108,
+          "OptionIds": []
+        },
+        "206707": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ]
+        },
+        "207188": {
+          "Id": 253,
+          "OptionIds": [
+            636,
+            637
+          ]
+        },
+        "207189": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ]
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 45,
+      "Losses": 19,
+      "OldRating": 2274.7292,
+      "DamageDealt": 1071,
+      "DamageReceived": 518,
+      "ObjectivesCaptured": 2,
+      "NewRating": 2295.8303,
+      "SupplyPointsConsumed": 28535,
+      "DestructionScore": 4995,
+      "LossesScore": 2210,
+      "Medals": [
+        0,
+        6
+      ],
+      "RawExpWithMultipliers": 3576,
+      "RawExp": 1192,
+      "TotalExp": 4076,
+      "DLRatio": 2.260181
+    },
+    {
+      "Id": 269090,
+      "TeamId": 1,
+      "Name": "CN-unbengable",
+      "TotalSpawnedUnitScore": 11935,
+      "TotalRefundedUnitScore": 6145,
+      "UnitData": {
+        "199395": {
+          "Id": 23,
+          "OptionIds": [
+            270
+          ],
+          "WasRefunded": true
+        },
+        "199396": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "TotalDamageDealt": 26.901752,
+          "TotalDamageReceived": 32
+        },
+        "199414": {
+          "Id": 115,
+          "OptionIds": [
+            1500
+          ],
+          "TotalDamageDealt": 19.167652,
+          "KilledCount": 2
+        },
+        "199460": {
+          "Id": 23,
+          "OptionIds": [
+            270
+          ],
+          "WasRefunded": true
+        },
+        "199470": {
+          "Id": 115,
+          "OptionIds": [
+            1500
+          ],
+          "TotalDamageDealt": 2.9342117,
+          "TotalDamageReceived": 20.042988
+        },
+        "199490": {
+          "Id": 394,
+          "OptionIds": [
+            1824
+          ],
+          "TotalDamageReceived": 44.859856,
+          "TotalSupplyPointsConsumed": 1278
+        },
+        "199540": {
+          "Id": 381,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "199886": {
+          "Id": 325,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "199956": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "199957": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 0.6535552,
+          "TotalDamageReceived": 27.252834
+        },
+        "199958": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 6,
+          "TotalDamageReceived": 16.866816
+        },
+        "199963": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "199964": {
+          "Id": 126,
+          "OptionIds": []
+        },
+        "199965": {
+          "Id": 108,
+          "OptionIds": []
+        },
+        "200174": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 36,
+          "TotalDamageReceived": 8,
+          "KilledCount": 1
+        },
+        "200645": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 25.702282,
+          "TotalDamageReceived": 16,
+          "KilledCount": 1
+        },
+        "200767": {
+          "Id": 252,
+          "OptionIds": [
+            621
+          ]
+        },
+        "201017": {
+          "Id": 168,
+          "OptionIds": [
+            1167,
+            1169,
+            2004,
+            1134
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 134.86255,
+          "TotalDamageReceived": 16,
+          "KilledCount": 2
+        },
+        "201278": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "201280": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 41.070152,
+          "TotalDamageFriendlyFireDealt": 0.76906693,
+          "TotalDamageReceived": 47.97616,
+          "TotalDamageReceivedByFriendlyFire": 0.5996929,
+          "TotalSupplyPointsConsumed": 575,
+          "KilledCount": 2
+        },
+        "201281": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageReceived": 49.220142
+        },
+        "201296": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "201297": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageReceived": 30.304539
+        },
+        "201298": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageReceived": 51.422333
+        },
+        "201571": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 22.615694,
+          "KilledCount": 1
+        },
+        "201634": {
+          "Id": 155,
+          "OptionIds": [
+            1567
+          ],
+          "TotalDamageDealt": 2.010353
+        },
+        "201771": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true
+        },
+        "201993": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "202017": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "202018": {
+          "Id": 132,
+          "OptionIds": [
+            1956
+          ],
+          "TotalDamageDealt": 12.973733,
+          "TotalDamageReceived": 25.119614,
+          "KilledCount": 1
+        },
+        "202019": {
+          "Id": 132,
+          "OptionIds": [
+            1956
+          ],
+          "TotalDamageDealt": 20.050837,
+          "TotalDamageReceived": 71.95014,
+          "TotalSupplyPointsConsumed": 1372
+        },
+        "202073": {
+          "Id": 44,
+          "OptionIds": [
+            1103,
+            1112
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 12.279965
+        },
+        "202312": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 15.749998,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 1
+        },
+        "202529": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true,
+          "TotalDamageReceived": 0.75
+        },
+        "202531": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageDealt": 6.742856,
+          "TotalDamageReceived": 34.038113,
+          "TotalDamageReceivedByFriendlyFire": 3.7600212,
+          "TotalSupplyPointsConsumed": 58,
+          "TotalSelfDamageDealt": 4.0687366
+        },
+        "202532": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 13.89101,
+          "TotalDamageFriendlyFireDealt": 1.5445544,
+          "TotalDamageReceived": 44.60102,
+          "TotalDamageReceivedByFriendlyFire": 4.2751284,
+          "TotalSupplyPointsConsumed": 516
+        },
+        "202580": {
+          "Id": 380,
+          "OptionIds": [
+            1720,
+            1726
+          ],
+          "TotalDamageDealt": 6.86,
+          "TotalDamageReceived": 19.826025
+        },
+        "202591": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 79.34303,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 2
+        },
+        "202822": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "TotalDamageReceived": 22.938332
+        },
+        "203087": {
+          "Id": 325,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "203128": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 50.42468,
+          "KilledCount": 1
+        },
+        "203240": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "203335": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "TotalDamageDealt": 61.645103,
+          "TotalDamageReceived": 24,
+          "KilledCount": 2
+        },
+        "203496": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 160.9789,
+          "KilledCount": 2
+        },
+        "203630": {
+          "Id": 170,
+          "OptionIds": [
+            337,
+            339,
+            335
+          ],
+          "TotalDamageReceived": 16
+        },
+        "203893": {
+          "Id": 168,
+          "OptionIds": [
+            1167,
+            1169,
+            2004,
+            1134
+          ],
+          "TotalDamageReceived": 24
+        },
+        "204097": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true
+        },
+        "204394": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true
+        },
+        "204457": {
+          "Id": 44,
+          "OptionIds": [
+            1103,
+            1112
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 16
+        },
+        "204598": {
+          "Id": 166,
+          "OptionIds": [],
+          "TotalDamageReceived": 16.99528
+        },
+        "204600": {
+          "Id": 126,
+          "OptionIds": [],
+          "TotalDamageDealt": 1.0255694,
+          "TotalDamageReceived": 46.841217
+        },
+        "204601": {
+          "Id": 126,
+          "OptionIds": [],
+          "TotalDamageDealt": 1.1314759,
+          "TotalDamageReceived": 51.639366
+        },
+        "204611": {
+          "Id": 166,
+          "OptionIds": [],
+          "TotalDamageReceived": 16.99528
+        },
+        "204612": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageDealt": 17.127316,
+          "TotalDamageReceived": 56.924496
+        },
+        "204613": {
+          "Id": 108,
+          "OptionIds": [],
+          "TotalDamageDealt": 5.3313103,
+          "TotalDamageReceived": 46.35938
+        },
+        "204763": {
+          "Id": 166,
+          "OptionIds": [],
+          "TotalDamageReceived": 11.998519
+        },
+        "204765": {
+          "Id": 116,
+          "OptionIds": [
+            1502
+          ],
+          "TotalDamageDealt": 11.128749,
+          "TotalDamageReceived": 21.468992,
+          "TotalSelfDamageDealt": 3.852973
+        },
+        "204766": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageDealt": 11.190471,
+          "TotalDamageReceived": 35.602478
+        },
+        "205205": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 53,
+          "TotalDamageReceived": 16,
+          "KilledCount": 2
+        },
+        "205315": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true
+        },
+        "205461": {
+          "Id": 44,
+          "OptionIds": [
+            1103,
+            1112
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 11.616,
+          "TotalDamageReceived": 17.65891,
+          "KilledCount": 1
+        },
+        "205683": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "205684": {
+          "Id": 109,
+          "OptionIds": []
+        },
+        "205685": {
+          "Id": 109,
+          "OptionIds": []
+        },
+        "205707": {
+          "Id": 142,
+          "OptionIds": [
+            1433,
+            2092
+          ],
+          "TotalDamageDealt": 8.696565,
+          "TotalDamageReceived": 22.86552
+        },
+        "205709": {
+          "Id": 367,
+          "OptionIds": [
+            1618
+          ],
+          "TotalDamageDealt": 0.58280957,
+          "TotalDamageReceived": 30.230577
+        },
+        "205710": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageDealt": 7.798835,
+          "TotalDamageReceived": 35.162086
+        },
+        "205726": {
+          "Id": 90,
+          "OptionIds": [
+            184,
+            2043
+          ],
+          "TotalDamageReceived": 14.794924
+        },
+        "205736": {
+          "Id": 90,
+          "OptionIds": [
+            184,
+            2043
+          ],
+          "TotalDamageDealt": 8.540856,
+          "TotalDamageReceived": 14.889799
+        },
+        "205843": {
+          "Id": 166,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "205899": {
+          "Id": 170,
+          "OptionIds": [
+            337,
+            339,
+            335
+          ],
+          "TotalDamageReceived": 16
+        },
+        "206138": {
+          "Id": 226,
+          "OptionIds": [
+            527
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 7.9686003
+        },
+        "206304": {
+          "Id": 169,
+          "OptionIds": [
+            2000,
+            1129,
+            1120
+          ],
+          "TotalDamageReceived": 26.887636
+        },
+        "206395": {
+          "Id": 325,
+          "OptionIds": []
+        },
+        "206587": {
+          "Id": 166,
+          "OptionIds": []
+        },
+        "206588": {
+          "Id": 126,
+          "OptionIds": [],
+          "TotalDamageDealt": 15.680412,
+          "KilledCount": 1
+        },
+        "206589": {
+          "Id": 126,
+          "OptionIds": [],
+          "TotalDamageDealt": 23.65238,
+          "KilledCount": 1
+        },
+        "206620": {
+          "Id": 170,
+          "OptionIds": [
+            337,
+            339,
+            335
+          ],
+          "TotalDamageReceived": 16
+        },
+        "206986": {
+          "Id": 7,
+          "OptionIds": [
+            249
+          ],
+          "TotalDamageReceived": 15.753846
+        },
+        "206987": {
+          "Id": 367,
+          "OptionIds": [
+            1618
+          ],
+          "TotalDamageReceived": 30
+        },
+        "206988": {
+          "Id": 372,
+          "OptionIds": [
+            1623
+          ],
+          "TotalDamageReceived": 35
+        },
+        "206996": {
+          "Id": 46,
+          "OptionIds": [
+            233,
+            210,
+            212
+          ],
+          "TotalDamageDealt": 12.699422,
+          "TotalDamageReceived": 11.827271,
+          "KilledCount": 1
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 24,
+      "Losses": 37,
+      "OldRating": 2254.9004,
+      "DamageDealt": 850,
+      "DamageReceived": 1057,
+      "ObjectivesCaptured": 5,
+      "NewRating": 2277.6428,
+      "DamageFriendlyFireDealt": 1,
+      "DamageFriendlyFireReceived": 7,
+      "SupplyPointsConsumed": 3799,
+      "SupplyCapturedByEnemy": 932,
+      "DestructionScore": 4240,
+      "LossesScore": 4610,
+      "SupplyPointsConsumedByAllies": 5260,
+      "Medals": [],
+      "RawExpWithMultipliers": 4065,
+      "RawExp": 1355,
+      "TotalExp": 4065,
+      "DLRatio": 0.9197397
+    },
+    {
+      "Id": 49588,
+      "TeamId": 1,
+      "Name": "FailedProdigy",
+      "TotalSpawnedUnitScore": 6365,
+      "TotalRefundedUnitScore": 680,
+      "UnitData": {
+        "199402": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "TotalDamageDealt": 5.0584693,
+          "TotalDamageReceived": 19.483353,
+          "KilledCount": 1
+        },
+        "199429": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageReceived": 20.28943
+        },
+        "199466": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "TotalDamageReceived": 21.153845
+        },
+        "199478": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageDealt": 5.659422,
+          "TotalDamageReceived": 20.120567
+        },
+        "199495": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "TotalDamageReceived": 14.26329
+        },
+        "199506": {
+          "Id": 130,
+          "OptionIds": [
+            1840
+          ],
+          "TotalDamageDealt": 7.7994795,
+          "TotalDamageReceived": 66.826965,
+          "TotalSupplyPointsConsumed": 422
+        },
+        "199543": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "WasRefunded": true
+        },
+        "199550": {
+          "Id": 130,
+          "OptionIds": [
+            1840
+          ],
+          "TotalDamageDealt": 8.015481,
+          "TotalDamageReceived": 45.031384
+        },
+        "199572": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "WasRefunded": true
+        },
+        "199575": {
+          "Id": 369,
+          "OptionIds": [],
+          "TotalDamageDealt": 42.67053,
+          "TotalDamageReceived": 24.007318,
+          "TotalSupplyPointsConsumed": 748,
+          "KilledCount": 1
+        },
+        "199594": {
+          "Id": 1,
+          "OptionIds": [
+            501,
+            504
+          ],
+          "TotalDamageReceived": 14.992597
+        },
+        "199596": {
+          "Id": 60,
+          "OptionIds": [],
+          "TotalDamageDealt": 19.280815,
+          "TotalDamageReceived": 44.80574,
+          "TotalSupplyPointsConsumed": 1111
+        },
+        "199612": {
+          "Id": 1,
+          "OptionIds": [
+            501,
+            504
+          ],
+          "TotalDamageReceived": 14.992597
+        },
+        "199613": {
+          "Id": 60,
+          "OptionIds": [],
+          "TotalDamageDealt": 14.270015,
+          "TotalDamageReceived": 78.59324,
+          "TotalSupplyPointsConsumed": 1939
+        },
+        "199645": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "WasRefunded": true
+        },
+        "199650": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ],
+          "TotalDamageDealt": 20.951982,
+          "TotalDamageReceived": 1.9382665,
+          "TotalSupplyPointsConsumed": 254,
+          "KilledCount": 2
+        },
+        "199651": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ],
+          "TotalDamageDealt": 6.4716983,
+          "TotalDamageReceived": 5.695111,
+          "TotalSupplyPointsConsumed": 176
+        },
+        "199832": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "200025": {
+          "Id": 213,
+          "OptionIds": [
+            490,
+            1451
+          ],
+          "TotalDamageDealt": 19.011045,
+          "TotalDamageReceived": 28.470219,
+          "TotalSupplyPointsConsumed": 1214,
+          "KilledCount": 1
+        },
+        "200040": {
+          "Id": 213,
+          "OptionIds": [
+            490,
+            1451
+          ],
+          "TotalDamageDealt": 29.79079,
+          "TotalDamageReceived": 53.192837,
+          "TotalSupplyPointsConsumed": 2616,
+          "KilledCount": 2
+        },
+        "200567": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ],
+          "TotalDamageDealt": 80.59638,
+          "TotalDamageReceived": 28.353771,
+          "TotalSupplyPointsConsumed": 1224,
+          "TotalSelfDamageDealt": 0.004935374,
+          "KilledCount": 3
+        },
+        "200749": {
+          "Id": 233,
+          "OptionIds": [
+            548
+          ],
+          "TotalDamageDealt": 20.345104,
+          "TotalDamageReceived": 24.958414,
+          "KilledCount": 1
+        },
+        "200928": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "201558": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ],
+          "TotalDamageReceived": 21.657434
+        },
+        "201570": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ],
+          "TotalDamageDealt": 7.995205,
+          "TotalDamageFriendlyFireDealt": 7.995205,
+          "TotalDamageReceived": 14.962594
+        },
+        "202058": {
+          "Id": 92,
+          "OptionIds": [
+            1605
+          ],
+          "TotalDamageDealt": 135.05269,
+          "TotalDamageReceived": 11.120164,
+          "TotalSupplyPointsConsumed": 4787,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 2
+        },
+        "202070": {
+          "Id": 93,
+          "OptionIds": [
+            1981
+          ],
+          "TotalDamageDealt": 34.97116,
+          "TotalSupplyPointsConsumed": 4320,
+          "BuildingDestroyedCount": 1,
+          "KilledCount": 1
+        },
+        "202201": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 11.965963
+        },
+        "202203": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageDealt": 33.946507,
+          "TotalDamageReceived": 22.130716,
+          "KilledCount": 1
+        },
+        "202587": {
+          "Id": 233,
+          "OptionIds": [
+            548
+          ]
+        },
+        "202972": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "203003": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ],
+          "TotalDamageDealt": 57.006916,
+          "TotalDamageReceived": 5.133008,
+          "TotalSupplyPointsConsumed": 1166,
+          "KilledCount": 2
+        },
+        "203365": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "203394": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "204523": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            639
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 13.5
+        },
+        "204525": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageDealt": 2.975489,
+          "TotalDamageReceived": 5.907181,
+          "TotalSupplyPointsConsumed": 187
+        },
+        "204526": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ],
+          "TotalDamageDealt": 2.0124831,
+          "TotalDamageReceived": 12.055789,
+          "TotalSupplyPointsConsumed": 323
+        },
+        "204624": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageReceived": 16.496853,
+          "TotalSupplyPointsConsumed": 524
+        },
+        "204631": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageDealt": 2.2424421,
+          "TotalDamageReceived": 14.378071,
+          "TotalSupplyPointsConsumed": 524,
+          "BuildingDestroyedCount": 1
+        },
+        "204637": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageReceived": 14.935032,
+          "TotalSupplyPointsConsumed": 523,
+          "BuildingDestroyedCount": 1
+        },
+        "204689": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "204862": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "204865": {
+          "Id": 60,
+          "OptionIds": []
+        },
+        "204866": {
+          "Id": 60,
+          "OptionIds": []
+        },
+        "205640": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ],
+          "TotalDamageReceived": 34.384422,
+          "TotalSupplyPointsConsumed": 398
+        },
+        "205775": {
+          "Id": 93,
+          "OptionIds": [
+            1981
+          ],
+          "TotalDamageDealt": 10.012794,
+          "TotalDamageReceived": 42.227654,
+          "KilledCount": 1
+        },
+        "206125": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ],
+          "TotalDamageReceived": 14.077969,
+          "TotalSupplyPointsConsumed": 1023
+        },
+        "206371": {
+          "Id": 256,
+          "OptionIds": [
+            648,
+            654,
+            1464
+          ]
+        },
+        "206661": {
+          "Id": 329,
+          "OptionIds": [
+            1443,
+            1446
+          ],
+          "TotalDamageReceived": 16
+        },
+        "206668": {
+          "Id": 329,
+          "OptionIds": [
+            1443,
+            1446
+          ],
+          "TotalDamageDealt": 13.385942,
+          "TotalDamageReceived": 16,
+          "KilledCount": 1
+        },
+        "207027": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ]
+        }
+      },
+      "TransferredUnits": {},
+      "Destruction": 19,
+      "Losses": 24,
+      "OldRating": 2260.6487,
+      "DamageDealt": 403,
+      "DamageReceived": 678,
+      "ObjectivesCaptured": 5,
+      "NewRating": 2282.9092,
+      "DamageFriendlyFireDealt": 7,
+      "SupplyPointsConsumed": 23479,
+      "DestructionScore": 2275,
+      "LossesScore": 3380,
+      "SupplyPointsConsumedByAllies": 1360,
+      "SupplyPointsConsumedFromAllies": 1047,
+      "Medals": [
+        1
+      ],
+      "RawExpWithMultipliers": 2700,
+      "RawExp": 900,
+      "TotalExp": 2950,
+      "DLRatio": 0.6730769
+    },
+    {
+      "Id": 338499,
+      "TeamId": 1,
+      "Name": "骇人鲸",
+      "TotalSpawnedUnitScore": 7680,
+      "TotalRefundedUnitScore": 1280,
+      "UnitData": {
+        "199403": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ],
+          "TotalDamageDealt": 25,
+          "TotalDamageReceived": 14.962594,
+          "TotalSupplyPointsConsumed": 700,
+          "KilledCount": 1
+        },
+        "199467": {
+          "Id": 156,
+          "OptionIds": [
+            517
+          ],
+          "TotalDamageDealt": 111.51456,
+          "TotalDamageReceived": 36.034363,
+          "TotalSupplyPointsConsumed": 3479,
+          "KilledCount": 3
+        },
+        "199496": {
+          "Id": 3,
+          "OptionIds": [
+            471,
+            473
+          ],
+          "TotalDamageDealt": 10.344828,
+          "TotalDamageReceived": 22.170685
+        },
+        "199507": {
+          "Id": 128,
+          "OptionIds": [
+            1512
+          ],
+          "TotalDamageReceived": 38.165073
+        },
+        "199687": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "199690": {
+          "Id": 128,
+          "OptionIds": [
+            1512
+          ],
+          "TotalDamageDealt": 11.172414,
+          "TotalSupplyPointsConsumed": 404
+        },
+        "199691": {
+          "Id": 124,
+          "OptionIds": [
+            1498
+          ],
+          "TotalDamageDealt": 13.544963
+        },
+        "199692": {
+          "Id": 402,
+          "OptionIds": []
+        },
+        "199693": {
+          "Id": 127,
+          "OptionIds": [],
+          "TotalDamageReceived": 40.024117
+        },
+        "199900": {
+          "Id": 465,
+          "OptionIds": [
+            2023,
+            2018,
+            2016,
+            2010
+          ],
+          "TotalDamageDealt": 17,
+          "TotalDamageReceived": 32,
+          "KilledCount": 1
+        },
+        "200188": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true
+        },
+        "200191": {
+          "Id": 124,
+          "OptionIds": [
+            1498
+          ]
+        },
+        "200192": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ],
+          "TotalDamageDealt": 13.72,
+          "KilledCount": 1
+        },
+        "200548": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true
+        },
+        "200596": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageReceived": 23.394495
+        },
+        "200598": {
+          "Id": 130,
+          "OptionIds": [
+            1840
+          ],
+          "TotalDamageDealt": 151.61667,
+          "TotalDamageFriendlyFireDealt": 8.03515,
+          "TotalDamageReceived": 41.55212,
+          "TotalDamageReceivedByFriendlyFire": 0.194053,
+          "TotalSupplyPointsConsumed": 1447,
+          "KilledCount": 2
+        },
+        "200751": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageReceived": 19.538462
+        },
+        "200753": {
+          "Id": 125,
+          "OptionIds": [
+            1497
+          ],
+          "TotalDamageDealt": 62.950302,
+          "TotalDamageReceived": 31.280725,
+          "TotalSupplyPointsConsumed": 917,
+          "KilledCount": 3
+        },
+        "201052": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageDealt": 4.1449656,
+          "TotalDamageReceived": 19.85628
+        },
+        "201058": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageDealt": 19.923847,
+          "TotalDamageFriendlyFireDealt": 0.5996929,
+          "TotalDamageReceived": 59.198055,
+          "TotalDamageReceivedByFriendlyFire": 8.764272,
+          "TotalSupplyPointsConsumed": 520
+        },
+        "201079": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "WasRefunded": true,
+          "TotalDamageDealt": 0.1664129,
+          "TotalDamageReceived": 9,
+          "TotalSupplyPointsConsumed": 686
+        },
+        "201082": {
+          "Id": 402,
+          "OptionIds": [],
+          "TotalDamageDealt": 8.40673,
+          "TotalDamageReceived": 62.217415,
+          "TotalSupplyPointsConsumed": 672,
+          "KilledCount": 1
+        },
+        "201408": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageDealt": 57.815277,
+          "TotalDamageReceived": 16.881424,
+          "TotalSupplyPointsConsumed": 972,
+          "KilledCount": 2
+        },
+        "201414": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageDealt": 27.844635,
+          "TotalDamageReceived": 7.220771,
+          "TotalSupplyPointsConsumed": 1808
+        },
+        "201468": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true
+        },
+        "201879": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            638
+          ],
+          "TotalDamageDealt": 6.542826,
+          "TotalDamageReceived": 17.075684,
+          "TotalSupplyPointsConsumed": 200
+        },
+        "201880": {
+          "Id": 127,
+          "OptionIds": [],
+          "TotalDamageDealt": 15.6605835,
+          "TotalDamageReceived": 65.27705,
+          "TotalSupplyPointsConsumed": 800
+        },
+        "201885": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            638
+          ],
+          "WasRefunded": true
+        },
+        "201887": {
+          "Id": 127,
+          "OptionIds": [],
+          "TotalDamageDealt": 14.368103,
+          "TotalDamageReceived": 39.103214
+        },
+        "202208": {
+          "Id": 253,
+          "OptionIds": [
+            635,
+            638
+          ],
+          "TotalDamageDealt": 9.017098,
+          "TotalDamageReceived": 17.503056,
+          "TotalSupplyPointsConsumed": 201
+        },
+        "202209": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageDealt": 7.9070725,
+          "TotalDamageReceived": 49.775272
+        },
+        "202325": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ],
+          "TotalDamageDealt": 67.61806,
+          "TotalDamageReceived": 10.495802,
+          "TotalSupplyPointsConsumed": 2900,
+          "KilledCount": 2
+        },
+        "202620": {
+          "Id": 9,
+          "OptionIds": [
+            623,
+            625,
+            627
+          ],
+          "TotalDamageReceived": 19.522907,
+          "TotalSupplyPointsConsumed": 175
+        },
+        "202715": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "WasRefunded": true,
+          "TotalDamageReceived": 9.975062,
+          "TotalSupplyPointsConsumed": 730
+        },
+        "203083": {
+          "Id": 465,
+          "OptionIds": [
+            2023,
+            2018,
+            2016,
+            2010
+          ],
+          "TotalDamageReceived": 32
+        },
+        "203158": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "WasRefunded": true
+        },
+        "203159": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageDealt": 12.630583,
+          "TotalDamageReceived": 34.041183,
+          "TotalDamageReceivedByFriendlyFire": 1.5445544
+        },
+        "203350": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "203854": {
+          "Id": 325,
+          "OptionIds": [],
+          "TotalDamageReceived": 5.769231
+        },
+        "203956": {
+          "Id": 310,
+          "OptionIds": [
+            1276,
+            1270,
+            1267
+          ],
+          "TotalDamageReceived": 32
+        },
+        "204144": {
+          "Id": 156,
+          "OptionIds": [
+            517
+          ],
+          "TotalDamageDealt": 38.285614,
+          "TotalDamageReceived": 39.697765,
+          "TotalSupplyPointsConsumed": 2764,
+          "KilledCount": 2
+        },
+        "204322": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ],
+          "TotalDamageReceived": 13.725909,
+          "TotalSupplyPointsConsumed": 1590
+        },
+        "204438": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "204521": {
+          "Id": 310,
+          "OptionIds": [
+            1276,
+            1270,
+            1267
+          ],
+          "TotalDamageReceived": 25.046816
+        },
+        "204614": {
+          "Id": 325,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "204852": {
+          "Id": 266,
+          "OptionIds": [
+            678,
+            679
+          ],
+          "TotalDamageReceived": 7.2128806,
+          "TotalSupplyPointsConsumed": 532
+        },
+        "205110": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageReceived": 20.643095
+        },
+        "205111": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageReceived": 9.458939,
+          "TotalSupplyPointsConsumed": 208
+        },
+        "205119": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageDealt": 5.1582966,
+          "TotalDamageReceived": 23.555069
+        },
+        "205120": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageDealt": 13.018443,
+          "TotalDamageReceived": 35.978584
+        },
+        "205173": {
+          "Id": 465,
+          "OptionIds": [
+            2023,
+            2018,
+            2016,
+            2010
+          ],
+          "TotalDamageReceived": 32
+        },
+        "205282": {
+          "Id": 325,
+          "OptionIds": [],
+          "WasRefunded": true
+        },
+        "205771": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "205778": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ],
+          "WasRefunded": true
+        },
+        "206135": {
+          "Id": 466,
+          "OptionIds": [
+            2046
+          ],
+          "TotalSupplyPointsConsumed": 302
+        },
+        "206276": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ]
+        },
+        "206278": {
+          "Id": 399,
+          "OptionIds": [
+            1838
+          ],
+          "TotalDamageDealt": 22.28451,
+          "TotalDamageReceived": 32.46669
+        },
+        "206287": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageDealt": 4.716157,
+          "TotalDamageReceived": 4.3500485
+        },
+        "206289": {
+          "Id": 127,
+          "OptionIds": [],
+          "TotalDamageDealt": 11.08759,
+          "TotalDamageReceived": 33.966595
+        },
+        "206521": {
+          "Id": 92,
+          "OptionIds": [
+            1606
+          ]
+        },
+        "206753": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ]
+        },
+        "206754": {
+          "Id": 130,
+          "OptionIds": [
+            1840
+          ]
+        },
+        "206769": {
+          "Id": 365,
+          "OptionIds": [
+            1612,
+            1617
+          ],
+          "TotalDamageReceived": 3.4242446
+        },
+        "206771": {
+          "Id": 130,
+          "OptionIds": [
+            1840
+          ],
+          "TotalDamageDealt": 1.849315
+        },
+        "206809": {
+          "Id": 455,
+          "OptionIds": [
+            1961
+          ],
+          "TotalDamageDealt": 2.1325681,
+          "TotalDamageReceived": 15.541932
+        },
+        "206904": {
+          "Id": 422,
+          "OptionIds": [
+            2079
+          ]
+        },
+        "206934": {
+          "Id": 9,
+          "OptionIds": [
+            623,
+            625,
+            627
+          ]
+        }
+      },
+      "TransferredUnits": {
+        "199650": {
+          "Id": 120,
+          "OptionIds": [
+            1515
+          ]
+        },
+        "200040": {
+          "Id": 213,
+          "OptionIds": [
+            490,
+            1451
+          ]
+        },
+        "202058": {
+          "Id": 92,
+          "OptionIds": [
+            1605
+          ]
+        },
+        "202203": {
+          "Id": 403,
+          "OptionIds": [
+            2058
+          ]
+        },
+        "203003": {
+          "Id": 157,
+          "OptionIds": [
+            632,
+            634
+          ]
+        },
+        "203365": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ]
+        },
+        "203394": {
+          "Id": 228,
+          "OptionIds": [
+            532
+          ]
+        }
+      },
+      "Destruction": 18,
+      "Losses": 30,
+      "OldRating": 2129.7239,
+      "DamageDealt": 622,
+      "DamageReceived": 846,
+      "NewRating": 2163.683,
+      "DamageFriendlyFireDealt": 7,
+      "DamageFriendlyFireReceived": 8,
+      "SupplyPointsConsumed": 22007,
+      "DestructionScore": 4050,
+      "LossesScore": 3950,
+      "SupplyPointsConsumedFromAllies": 6508,
+      "Medals": [],
+      "RawExpWithMultipliers": 2019,
+      "RawExp": 673,
+      "TotalExp": 2019,
+      "DLRatio": 1.0253165
+    }
+  ]
+}

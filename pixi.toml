@@ -1,0 +1,16 @@
+[project]
+name = "ba-analysis"
+version = "0.1.0"
+description = "Broken Arrow WCS weight regression analysis"
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[dependencies]
+python = ">=3.10"
+numpy = ">=1.24"
+scikit-learn = ">=1.3"
+xgboost = ">=3.1.3,<4"
+shap = ">=0.50.0,<0.51"
+
+[tasks]
+regress = "python scripts/regress_weights.py"

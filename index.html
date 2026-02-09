@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TNMKLQ79MK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-TNMKLQ79MK');
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Broken Arrow Insight - Data-driven player performance analysis powered by XGBoost & SHAP. Evaluate Win Contribution Score (WCS), playstyle profiling and team synergy.">
+    <title>Broken Arrow Insight - 断箭战力洞察</title>
+
+    <!-- Tailwind CSS (CDN, 后续可迁移到 npm) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 自定义样式 -->
+    <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body class="min-h-screen pt-4 px-2 pb-24 md:pt-10 md:px-4">
+
+    <!-- ===== 顶栏：GitHub + 语言切换 ===== -->
+    <div class="w-full max-w-6xl mx-auto flex justify-between items-center mb-6 md:mb-8 px-2">
+        <div class="flex gap-4 items-center">
+            <a href="https://github.com/exusiaiwei/broken-arrow-insight" target="_blank" class="flex items-center gap-2 px-3 py-1 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg text-slate-300 hover:text-white transition group">
+                <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                <span class="text-[10px] md:text-xs font-mono font-bold">GitHub</span>
+            </a>
+            <div class="text-[10px] md:text-xs text-slate-400 font-mono tracking-widest uppercase font-bold">v4.0 Modular</div>
+        </div>
+        <div class="flex gap-1 md:gap-2 bg-slate-800 p-1 rounded-xl border border-slate-700">
+            <button onclick="setLang('en')" id="btn_lang_en" class="px-3 py-1 md:px-4 md:py-1.5 text-xs rounded-lg transition font-bold">English</button>
+            <button onclick="setLang('zh')" id="btn_lang_zh" class="px-3 py-1 md:px-4 md:py-1.5 text-xs rounded-lg transition font-bold">中文</button>
+            <button onclick="setLang('ru')" id="btn_lang_ru" class="px-3 py-1 md:px-4 md:py-1.5 text-xs rounded-lg transition font-bold">Русский</button>
+            <button onclick="setLang('ja')" id="btn_lang_ja" class="px-3 py-1 md:px-4 md:py-1.5 text-xs rounded-lg transition font-bold">日本語</button>
+        </div>
+    </div>
+
+    <!-- ===== 主面板 ===== -->
+    <div class="glass-panel w-full max-w-6xl mx-auto rounded-[1.5rem] md:rounded-[2.5rem] p-5 md:p-10 shadow-2xl border-white/5">
+        <!-- 标题 -->
+        <div class="text-center mb-8 md:mb-12">
+            <h1 class="text-4xl md:text-6xl font-black text-white tracking-tighter mb-4 flex flex-col md:block items-center justify-center">
+                <span id="lbl_title">Broken Arrow Insight</span>
+                <span class="text-base md:text-xl text-cyan-500 italic mt-2 md:mt-0 md:ml-4 opacity-80 font-serif">断箭战力洞察</span>
+            </h1>
+            <div class="flex justify-center gap-6 mb-4">
+                <a href="https://barmory.net/" target="_blank" class="text-xs text-slate-400 border border-slate-700 px-3 py-1 rounded-full hover:bg-slate-700 hover:text-white transition-all font-medium">Data Source: Barmory.net</a>
+            </div>
+            <p class="text-cyan-400 font-mono text-[10px] md:text-sm uppercase tracking-[0.2em] md:tracking-[0.4em] font-bold" id="lbl_subtitle">Player Behavior Analysis</p>
+        </div>
+
+        <!-- 搜索输入 -->
+        <div class="flex flex-col items-center mb-10 md:mb-16">
+            <div class="flex flex-col md:flex-row gap-3 md:gap-4 w-full max-w-2xl relative">
+                <input type="text" id="steamInput" class="flex-1 bg-slate-900 border-2 border-slate-700 text-white p-4 md:p-5 rounded-xl md:rounded-2xl text-center text-base md:text-lg focus:ring-4 focus:ring-cyan-500/20 focus:border-cyan-500 outline-none transition-all placeholder-slate-600 shadow-2xl font-medium" onkeydown="if(event.key === 'Enter') handleCheck()">
+                <button onclick="handleCheck()" id="btn_check" class="bg-cyan-600 hover:bg-cyan-500 text-white font-black px-12 py-4 md:py-5 rounded-xl md:rounded-2xl shadow-xl transform active:scale-95 transition-all text-base md:text-lg whitespace-nowrap">开始检测</button>
+            </div>
+
+            <div class="flex flex-row flex-wrap justify-center gap-2 md:gap-6 mt-4">
+                <button onclick="openSearchModal()" class="text-slate-400 text-xs md:text-sm hover:text-orange-400 transition flex items-center gap-2 group p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:scale-110 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                    <span id="lbl_find_id_btn" class="border-b border-dotted border-slate-600 group-hover:border-orange-400">不知道 ID？通过用户名查找</span>
+                </button>
+                <button onclick="openMatchSearchModal()" class="text-slate-400 text-xs md:text-sm hover:text-cyan-400 transition flex items-center gap-2 group p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:scale-110 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                    </svg>
+                    <span id="lbl_find_match_btn" class="border-b border-dotted border-slate-600 group-hover:border-cyan-400">只知道对局 ID？通过对局查玩家</span>
+                </button>
+            </div>
+
+            <div id="historyContainer" class="flex flex-wrap justify-center gap-2 md:gap-3 mt-6 md:mt-8"></div>
+        </div>
+
+        <!-- 加载进度 -->
+        <div id="loading" class="hidden text-center py-12 max-w-lg mx-auto">
+            <div class="flex justify-between text-sm font-bold text-slate-300 mb-2">
+                <span id="loadStatus">Initializing...</span>
+                <span id="loadPercent">0%</span>
+            </div>
+            <div class="load-progress-bg"><div id="loadProgressFill" class="load-progress-fill"></div></div>
+            <p class="text-xs text-slate-500 mt-3 font-mono font-medium" id="loadDetail">Synchronizing Data Chains...</p>
+        </div>
+
+        <!-- 错误提示 -->
+        <div id="errorArea" class="hidden mb-10 max-w-2xl mx-auto bg-red-900/30 border border-red-500/50 text-red-100 p-6 rounded-3xl text-base text-center font-bold">
+            <span id="errorMsg">Unknown Error</span>
+        </div>
+
+        <!-- ===== 结果面板 ===== -->
+        <div id="resultPanel" class="hidden result-fade">
+            <div class="bg-slate-800/60 rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 border border-white/10 flex flex-col items-center mb-10 md:mb-16 relative overflow-hidden">
+                <!-- 右侧评价贴纸 -->
+                <div class="tag-sticker-container"></div>
+                <!-- 左侧爱用单位贴纸 -->
+                <div class="tag-sticker-container-left" id="unitStickerContainer"></div>
+
+                <div class="text-center mb-4 mt-2 md:mt-0 w-full px-2">
+                    <div id="userNameDisplay" class="text-xl md:text-3xl font-black text-white mb-2 truncate">Commander Name</div>
+                    <div id="calcTimeDisplay" class="text-[10px] font-mono text-slate-500 uppercase tracking-widest">Calculated: 2024-01-01 00:00:00</div>
+                </div>
+
+                <h2 class="text-slate-400 text-xs md:text-sm font-black uppercase tracking-[0.2em] mb-2" id="lbl_maggot_index_title">胜利贡献度</h2>
+                <div class="text-[6rem] md:text-[10rem] font-black text-white leading-none mb-4 md:mb-6" id="maggotScoreDisplay" style="text-shadow: 0 5px 25px rgba(0,0,0,0.4);">0.0</div>
+                <div id="maggotLabel" class="text-xl md:text-3xl font-black px-8 py-2 md:px-10 md:py-3 rounded-full bg-slate-900 border-2 border-white/10 shadow-2xl mb-8 md:mb-12">Unknown</div>
+
+                <!-- 仪表条 (0=红/左, 100=绿/右) -->
+                <div class="w-full max-w-3xl mb-8 md:mb-12">
+                    <div class="flex justify-between text-[10px] md:text-xs text-slate-400 mb-4 uppercase font-black tracking-widest">
+                        <span id="lbl_god_range">0</span><span id="lbl_maggot_range">100</span>
+                    </div>
+                    <div class="maggot-meter-bg"><div id="meterIndicator" class="maggot-indicator" style="left: 0%;"></div></div>
+                </div>
+
+                <!-- WCS 六维百分位 + 胜率 (SHAP 数据驱动) -->
+                <div class="w-full max-w-5xl grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-4 pt-8 md:pt-10 border-t-2 border-white/5">
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_battlefield">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_impact">
+                            战场贡献 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-cyan-400" id="ref_avgImpact">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">29%</div>
+                        <div class="wcs-tooltip" id="tip_battlefield"></div>
+                    </div>
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_combat">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_dr">
+                            战斗效率 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-orange-400" id="ref_avgDR">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">18%</div>
+                        <div class="wcs-tooltip" id="tip_combat"></div>
+                    </div>
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_economy">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_tr">
+                            经济管理 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-green-400" id="ref_avgTR">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">11%</div>
+                        <div class="wcs-tooltip" id="tip_economy"></div>
+                    </div>
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_teamwork">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_or">
+                            团队协作 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-purple-400" id="ref_avgOR">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">10%</div>
+                        <div class="wcs-tooltip" id="tip_teamwork"></div>
+                    </div>
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_strategy">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_st">
+                            战略目标 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-emerald-400" id="ref_avgST">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">6%</div>
+                        <div class="wcs-tooltip" id="tip_strategy"></div>
+                    </div>
+                    <div class="text-center wcs-dim-cell group relative cursor-help" id="dim_firepower">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2 flex items-center justify-center gap-1" id="lbl_ref_fp">
+                            火力输出 <span class="wcs-info-icon">i</span>
+                        </div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-red-400" id="ref_avgFP">0.0</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">11%</div>
+                        <div class="wcs-tooltip" id="tip_firepower"></div>
+                    </div>
+                    <div class="text-center col-span-2 sm:col-span-3 md:col-span-4 lg:col-span-1">
+                        <div class="text-[10px] md:text-xs text-slate-500 uppercase font-black mb-1 md:mb-2" id="lbl_ref_wr">胜率</div>
+                        <div class="text-xl md:text-2xl font-mono font-black text-yellow-400" id="ref_WR">0%</div>
+                        <div class="text-[9px] text-slate-600 font-bold mt-1">+15%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== 风格画像区域 ===== -->
+            <div id="playstyleSection" class="hidden bg-slate-800/40 rounded-[2rem] md:rounded-[3rem] p-6 md:p-10 border border-white/10 mb-10 md:mb-16">
+                <div class="flex items-center gap-4 md:gap-6 mb-6">
+                    <div class="h-[2px] flex-1 bg-white/10"></div>
+                    <h3 class="text-sm md:text-lg font-black text-slate-300 uppercase tracking-widest">作战风格分析</h3>
+                    <div class="h-[2px] flex-1 bg-white/10"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-center">
+                    <!-- 雷达图 -->
+                    <div id="playstyleRadar" class="flex justify-center"></div>
+                    <!-- 风格标签 + 维度条 -->
+                    <div>
+                        <div id="playstyleLabel" class="text-2xl md:text-3xl font-black text-white mb-6 flex items-center justify-center md:justify-start"></div>
+                        <div id="playstyleBars" class="space-y-3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 对局历史分隔线 -->
+            <div class="flex items-center gap-4 md:gap-6 mb-8 md:mb-12">
+                <div class="h-[2px] flex-1 bg-white/10"></div>
+                <h3 class="text-lg md:text-2xl font-black text-slate-200 uppercase tracking-widest text-center" id="lbl_history_title">最近 12 局有效对局</h3>
+                <div class="h-[2px] flex-1 bg-white/10"></div>
+            </div>
+            <div id="matchesContainer" class="space-y-8 md:space-y-16"></div>
+        </div>
+    </div>
+
+    <!-- ===== 昵称搜索模态框 ===== -->
+    <div id="idSearchModal" class="fixed inset-0 z-50 hidden flex items-center justify-center modal-backdrop p-4">
+        <div class="glass-panel w-full max-w-lg rounded-2xl p-6 relative shadow-2xl bg-slate-900/90 border border-slate-600">
+            <button onclick="closeSearchModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            <h2 id="modal_title" class="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 mb-1 text-center">玩家内部 ID 查询</h2>
+            <div class="text-[10px] text-slate-500 mb-6 text-center font-mono">Data from: <a href="https://dash.aoeiaol.top/" target="_blank" class="hover:text-orange-400 border-b border-dotted border-slate-600 transition">https://dash.aoeiaol.top/</a></div>
+            <div class="flex gap-2 mb-2">
+                <input type="text" id="modalSearchInput" class="bg-slate-800 border border-slate-600 text-white text-sm rounded-lg focus:ring-orange-500 focus:border-orange-500 block w-full p-3 placeholder-slate-500" placeholder="输入游戏用户名..." onkeydown="if(event.key === 'Enter') doNameSearch()">
+                <button onclick="doNameSearch()" id="modal_btn_search" class="text-white bg-orange-600 hover:bg-orange-700 focus:ring-4 focus:outline-none focus:ring-orange-800 font-medium rounded-lg text-sm px-6 py-3 transition whitespace-nowrap">查询</button>
+            </div>
+            <div id="modalStatusMsg" class="text-xs text-slate-400 min-h-[1.5rem] mb-2 pl-1"></div>
+            <div id="modalResultList" class="hidden rounded-xl overflow-hidden max-h-[300px] overflow-y-auto flex flex-col gap-1 pr-1 custom-scrollbar"></div>
+            <div id="modalFinalResult" class="hidden mt-4 bg-orange-900/10 border border-orange-500/20 rounded-xl p-4 text-center">
+                <div class="text-slate-400 text-[10px] uppercase tracking-wider mb-1" id="lbl_modal_pname">玩家名称</div>
+                <div id="modalSelectedName" class="text-xl font-bold text-white mb-2"></div>
+                <div class="text-slate-400 text-[10px] uppercase tracking-wider mb-1" id="lbl_modal_pid">内部 ID</div>
+                <div class="flex items-center justify-center gap-2 mb-3">
+                    <code id="modalSelectedId" class="bg-black/30 px-3 py-1 rounded text-orange-300 font-mono text-xl font-bold select-all"></code>
+                </div>
+                <button onclick="useFoundId()" id="btn_use_id" class="w-full bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-2 rounded-lg shadow-lg transition">使用此 ID 检测</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== 对局搜索模态框 ===== -->
+    <div id="matchSearchModal" class="fixed inset-0 z-50 hidden flex items-center justify-center modal-backdrop p-4">
+        <div class="glass-panel w-full max-w-4xl rounded-2xl p-6 relative shadow-2xl bg-slate-900/95 border border-slate-600 flex flex-col max-h-[90vh]">
+            <button onclick="closeMatchSearchModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white z-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            <h2 id="modal_match_title" class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-6 text-center">通过对局 ID 查找玩家</h2>
+            <div class="flex gap-2 mb-4">
+                <input type="text" id="matchIdInput" class="bg-slate-800 border border-slate-600 text-white text-sm rounded-xl focus:ring-cyan-500 focus:border-cyan-500 block w-full p-4 placeholder-slate-500 font-mono" placeholder="输入对局 ID..." onkeydown="if(event.key === 'Enter') doMatchSearch()">
+                <button onclick="doMatchSearch()" id="modal_match_btn_search" class="text-white bg-cyan-600 hover:bg-cyan-500 focus:ring-4 focus:outline-none focus:ring-cyan-800 font-bold rounded-xl text-sm px-6 py-4 transition whitespace-nowrap">获取战绩</button>
+            </div>
+            <div id="matchModalStatus" class="text-xs mb-4 pl-1 text-center min-h-[1rem]"></div>
+            <div id="matchModalResultArea" class="hidden flex-1 overflow-y-auto custom-scrollbar pr-2">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div id="matchModalTeam0" class="space-y-1"></div>
+                    <div id="matchModalTeam1" class="space-y-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== 玩家详情模态框 ===== -->
+    <div id="playerDetailModal" class="fixed inset-0 z-[60] hidden flex items-center justify-center modal-backdrop p-4">
+        <div class="glass-panel w-full max-w-2xl rounded-2xl p-6 relative shadow-2xl bg-slate-900/95 border border-slate-600 flex flex-col max-h-[90vh]">
+            <button onclick="closePlayerDetailModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white z-10 p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            <div class="text-center mb-6">
+                <h2 id="pd_name" class="text-2xl font-black text-white">Player Name</h2>
+                <div class="flex justify-center gap-4 mt-2 text-xs text-slate-400 font-mono">
+                    <span id="pd_id">ID: 123456</span>
+                    <span id="pd_elo" class="text-cyan-400">ELO 1200 (+15.0)</span>
+                </div>
+            </div>
+
+            <div class="overflow-y-auto custom-scrollbar pr-2 flex-1">
+                <!-- 基础统计 -->
+                <div class="grid grid-cols-4 gap-2 mb-4">
+                    <div class="stat-grid-item bg-green-900/20 border-green-500/30">
+                        <div class="stat-grid-label text-green-300" id="lbl_pd_kill">击杀分</div>
+                        <div class="stat-grid-value text-green-100" id="pd_kill">0</div>
+                    </div>
+                    <div class="stat-grid-item bg-red-900/20 border-red-500/30">
+                        <div class="stat-grid-label text-red-300" id="lbl_pd_loss">损失分</div>
+                        <div class="stat-grid-value text-red-100" id="pd_loss">0</div>
+                    </div>
+                    <div class="stat-grid-item bg-blue-900/20 border-blue-500/30">
+                        <div class="stat-grid-label text-blue-300" id="lbl_pd_obj">占点分</div>
+                        <div class="stat-grid-value text-blue-100" id="pd_obj">0</div>
+                    </div>
+                    <div class="stat-grid-item bg-yellow-900/20 border-yellow-500/30">
+                        <div class="stat-grid-label text-yellow-300">K/D</div>
+                        <div class="stat-grid-value text-yellow-100" id="pd_kd">0.00</div>
+                    </div>
+                </div>
+
+                <!-- 详细统计 -->
+                <h3 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 border-b border-white/10 pb-1">Detailed Stats</h3>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-2 mb-4">
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_dmg_dealt">伤害输出</div><div class="stat-grid-value text-orange-400" id="pd_dmg_dealt">0</div></div>
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_dmg_taken">承受伤害</div><div class="stat-grid-value text-slate-400" id="pd_dmg_taken">0</div></div>
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_supply">补给消耗</div><div class="stat-grid-value text-yellow-400" id="pd_supply">0</div></div>
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_supply_ally">吃盟友补给</div><div class="stat-grid-value text-pink-400" id="pd_supply_ally">0</div></div>
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_supply_give">喂盟友补给</div><div class="stat-grid-value text-green-400" id="pd_supply_give">0</div></div>
+                    <div class="stat-grid-item"><div class="stat-grid-label" id="lbl_pd_units">单位总值</div><div class="stat-grid-value text-blue-400" id="pd_units">0</div></div>
+                </div>
+
+                <!-- Top Units -->
+                <h3 class="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2 border-b border-white/10 pb-1">Top Units</h3>
+                <div class="grid grid-cols-1 gap-2">
+                    <div class="bg-slate-800/50 rounded p-2 flex justify-between items-center border-l-2 border-orange-500">
+                        <div class="text-xs text-orange-300 font-bold" id="lbl_pd_top_dmg">最高伤害</div>
+                        <div class="text-right"><div class="text-xs text-white font-bold" id="pd_top_dmg_name">-</div><div class="text-[10px] text-slate-400" id="pd_top_dmg_val">0</div></div>
+                    </div>
+                    <div class="bg-slate-800/50 rounded p-2 flex justify-between items-center border-l-2 border-red-500">
+                        <div class="text-xs text-red-300 font-bold" id="lbl_pd_top_kill">最高击杀</div>
+                        <div class="text-right"><div class="text-xs text-white font-bold" id="pd_top_kill_name">-</div><div class="text-[10px] text-slate-400" id="pd_top_kill_val">0</div></div>
+                    </div>
+                    <div class="bg-slate-800/50 rounded p-2 flex justify-between items-center border-l-2 border-blue-500">
+                        <div class="text-xs text-blue-300 font-bold" id="lbl_pd_top_tank">最高承伤</div>
+                        <div class="text-right"><div class="text-xs text-white font-bold" id="pd_top_tank_name">-</div><div class="text-[10px] text-slate-400" id="pd_top_tank_val">0</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== JS 入口 (Vite ES Module) ===== -->
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>

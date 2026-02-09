@@ -1,0 +1,115 @@
+{
+  "correlations": {
+    "dlRatio": 0.23786465691407588,
+    "costEfficiency": 0.20300433089986938,
+    "lossesScore": -0.17547172946140502,
+    "refundRate": 0.17431702032583632,
+    "totalRefunded": 0.16445944837856896,
+    "netInvestment": -0.16164283315155437,
+    "destructionScore": 0.1498153087746113,
+    "survivalRate": 0.14520740913893887,
+    "damageTrade": 0.1195620565359968,
+    "damageDealt": 0.11433927697946546,
+    "uniqueUnits": 0.08370875283310902,
+    "supplyFromAllies": 0.08050878428165995,
+    "supplyToAllies": 0.07268773870385535,
+    "damageReceived": -0.06242661674166218,
+    "totalSpawned": 0.035482573130829025,
+    "objectivesCaptured": -0.035407404511517915,
+    "supplyConsumed": 0.027217482210839413,
+    "buildingsDestroyed": 0.024425884623233442,
+    "teamDmgShare": -0.015769130404228626,
+    "teamDestShare": 0.015112083304052499,
+    "supplyCaptured": 0.005257495664536142,
+    "teamLossShare": 0.0006571222814911658,
+    "teamSpawnShare": -0.0006569719446597899
+  },
+  "full_model_cv": 0.6433962264150943,
+  "lasso_selected": {
+    "teamLossShare": 0.9555540427870721,
+    "lossesScore": -0.7523614066799049,
+    "dlRatio": 0.3882165420056666,
+    "uniqueUnits": 0.321976627963874,
+    "teamDmgShare": -0.29510591314790563,
+    "netInvestment": -0.24264529595886736,
+    "damageDealt": 0.20340673396570047,
+    "objectivesCaptured": -0.12366133803291286,
+    "teamDestShare": -0.10769229497006755,
+    "refundRate": 0.10565795262800141,
+    "teamSpawnShare": -0.09383821856246415,
+    "supplyFromAllies": 0.0840447384566029,
+    "supplyConsumed": -0.07325790068435109,
+    "costEfficiency": 0.05278048719723691,
+    "buildingsDestroyed": -0.006534618315262372
+  },
+  "lasso_dropped": [
+    "destructionScore",
+    "damageReceived",
+    "supplyCaptured",
+    "totalSpawned",
+    "totalRefunded",
+    "supplyToAllies",
+    "damageTrade",
+    "survivalRate"
+  ],
+  "lasso_cv": 0.6622641509433962,
+  "pca_components": {
+    "PC1": {
+      "variance_explained": 0.2825588546635693,
+      "top_loadings": {
+        "dlRatio": 0.34418688010407184,
+        "costEfficiency": 0.3368779580464323,
+        "damageTrade": 0.3146524790944331,
+        "destructionScore": 0.27236213246203284,
+        "refundRate": 0.26395846981436266
+      },
+      "win_correlation": 0.1870805154269292
+    },
+    "PC2": {
+      "variance_explained": 0.2003686513482691,
+      "top_loadings": {
+        "teamLossShare": 0.333686965296753,
+        "teamSpawnShare": 0.32918190250773827,
+        "totalSpawned": 0.3247902216413253,
+        "lossesScore": 0.3194138101066432,
+        "teamDmgShare": 0.287613414964897
+      },
+      "win_correlation": -0.00888518874824584
+    },
+    "PC3": {
+      "variance_explained": 0.09862308196864746,
+      "top_loadings": {
+        "totalRefunded": 0.44180657181843513,
+        "refundRate": 0.42004496224385124,
+        "totalSpawned": 0.3847521818967441,
+        "teamSpawnShare": 0.3305934101692578,
+        "supplyConsumed": -0.28010072301100514
+      },
+      "win_correlation": 0.04435110907257431
+    },
+    "PC4": {
+      "variance_explained": 0.05496252960203565,
+      "top_loadings": {
+        "objectivesCaptured": 0.4412629588000444,
+        "supplyFromAllies": -0.43176001462219044,
+        "buildingsDestroyed": -0.42009367824486243,
+        "supplyConsumed": -0.3589292670138201,
+        "supplyToAllies": -0.2974726263894905
+      },
+      "win_correlation": 0.031933316885626735
+    },
+    "PC5": {
+      "variance_explained": 0.05144229410241375,
+      "top_loadings": {
+        "damageReceived": 0.42118006827853866,
+        "uniqueUnits": 0.4065814586479858,
+        "damageTrade": -0.36911027031732835,
+        "supplyConsumed": 0.3410879015716427,
+        "supplyFromAllies": 0.27669399356021335
+      },
+      "win_correlation": 0.14101745139630706
+    }
+  },
+  "sample_count": 530,
+  "match_count": 54
+}

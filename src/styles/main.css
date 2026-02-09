@@ -1,0 +1,335 @@
+/* ============================================
+   Broken Arrow Maggot Index - 全局样式
+   ============================================ */
+
+/* --- 基础 --- */
+body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* --- 玻璃面板 --- */
+.glass-panel {
+  background: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* --- 条形图 --- */
+.bar-container {
+  background: rgba(0, 0, 0, 0.5);
+  height: 6px;
+  border-radius: 4px;
+  overflow: hidden;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .bar-container { height: 8px; }
+}
+
+.bar-kill { background: #22c55e; height: 100%; transition: width 0.6s ease-out; }
+.bar-loss { background: #ef4444; height: 100%; transition: width 0.6s ease-out; }
+.bar-obj  { background: #3b82f6; height: 100%; transition: width 0.6s ease-out; }
+
+/* --- 加载进度条 --- */
+.load-progress-bg {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+.load-progress-fill {
+  width: 0%;
+  height: 100%;
+  background: #06b6d4;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.6);
+}
+
+/* --- 蛆指数仪表 --- */
+.maggot-meter-bg {
+  background: linear-gradient(90deg, #ef4444 0%, #eab308 50%, #22c55e 100%);
+  height: 18px;
+  border-radius: 9px;
+  position: relative;
+}
+.maggot-indicator {
+  position: absolute;
+  top: -4px;
+  width: 6px;
+  height: 26px;
+  background: white;
+  border: 2px solid #000;
+  transform: translateX(-50%);
+  transition: left 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* --- 贴纸容器 (右侧 - 评价勋章) --- */
+.tag-sticker-container {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+  z-index: 30;
+  transform-origin: top right;
+  transform: scale(0.75);
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .tag-sticker-container {
+    top: 1.5rem;
+    right: 1.5rem;
+    gap: 0.75rem;
+    transform: scale(1);
+  }
+}
+
+/* --- 贴纸容器 (左侧 - 累计爱用单位) --- */
+.tag-sticker-container-left {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  z-index: 30;
+  transform-origin: top left;
+  transform: scale(0.75);
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .tag-sticker-container-left {
+    top: 1.5rem;
+    left: 1.5rem;
+    gap: 0.75rem;
+    transform: scale(1);
+  }
+}
+
+/* --- 单个贴纸 --- */
+.tag-sticker {
+  pointer-events: auto;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transform: rotate(8deg);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  border-width: 2px;
+  animation: tagPop 0.5s ease-out forwards;
+  opacity: 0;
+  white-space: nowrap;
+}
+.tag-sticker-left {
+  transform: rotate(-5deg);
+  animation: tagPopLeft 0.5s ease-out forwards;
+}
+
+@keyframes tagPop {
+  from { opacity: 0; transform: scale(0.5) rotate(20deg); }
+  to   { opacity: 1; transform: scale(1) rotate(8deg); }
+}
+@keyframes tagPopLeft {
+  from { opacity: 0; transform: scale(0.5) rotate(-15deg); }
+  to   { opacity: 1; transform: scale(1) rotate(-5deg); }
+}
+
+/* --- 队友行 --- */
+.teammate-row {
+  transition: all 0.2s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  min-height: 80px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .teammate-row { min-height: 85px; }
+}
+.teammate-row:hover { background: rgba(255, 255, 255, 0.1) !important; }
+.teammate-row:active { background: rgba(255, 255, 255, 0.15) !important; transform: scale(0.995); }
+
+.is-me {
+  background: rgba(6, 182, 212, 0.15) !important;
+  border-left: 3px solid #06b6d4;
+}
+@media (min-width: 768px) {
+  .is-me { border-left-width: 5px; }
+}
+
+/* --- ID 链接 --- */
+.id-link {
+  cursor: pointer;
+  color: #94a3b8;
+  font-family: ui-monospace, monospace;
+  font-size: 0.7rem;
+  border-bottom: 1px dotted #64748b;
+  width: fit-content;
+  opacity: 0.7;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (min-width: 768px) {
+  .id-link { font-size: 0.75rem; }
+}
+.id-link:hover {
+  color: #22d3ee;
+  border-bottom-color: #22d3ee;
+  opacity: 1;
+}
+
+/* --- 历史记录 --- */
+.history-chip {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  background: #1e293b;
+  border: 1px solid #475569;
+  border-radius: 99px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.history-chip:hover { border-color: #06b6d4; color: #22d3ee; background: #0f172a; }
+.history-del { font-size: 1.1rem; line-height: 1; opacity: 0.5; }
+
+/* --- 结果淡入 --- */
+.result-fade { animation: fadeIn 0.5s ease-out; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* --- 模态框 --- */
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+}
+.search-result-item:hover {
+  background: rgba(249, 115, 22, 0.1);
+  border-color: rgba(249, 115, 22, 0.5);
+}
+
+/* --- 勋章徽章 --- */
+.medal-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.2s;
+  cursor: help;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .medal-badge { gap: 4px; padding: 2px 6px; border-radius: 6px; }
+}
+.medal-badge:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- 自定义滚动条 --- */
+.custom-scrollbar::-webkit-scrollbar { width: 6px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.2); }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 3px; }
+
+/* --- 单局单位标签 (紧凑型) --- */
+.match-unit-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 1.2;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  white-space: nowrap;
+}
+
+/* --- 玩家详情统计格子 --- */
+.stat-grid-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.stat-grid-label {
+  font-size: 10px;
+  color: #94a3b8;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.stat-grid-value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e2e8f0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* --- WCS 维度 info icon & tooltip --- */
+.wcs-info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 8px;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.35);
+  flex-shrink: 0;
+  transition: all 0.2s;
+}
+.wcs-dim-cell:hover .wcs-info-icon {
+  background: rgba(6, 182, 212, 0.2);
+  border-color: rgba(6, 182, 212, 0.5);
+  color: #06b6d4;
+}
+
+.wcs-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(6, 182, 212, 0.3);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 500;
+  color: #94a3b8;
+  white-space: pre-line;
+  text-align: left;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.2s ease;
+  z-index: 50;
+  min-width: 180px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  text-transform: none;
+  letter-spacing: normal;
+}
+.wcs-dim-cell:hover .wcs-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-6px);
+}

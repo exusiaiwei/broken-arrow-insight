@@ -1,0 +1,4164 @@
+{
+  "metadata": {
+    "collectedAt": "2026-02-09T09:21:53.066Z",
+    "matchCount": 47,
+    "sampleCount": 460,
+    "playerIds": [
+      "16589",
+      "160368",
+      "194698",
+      "17366",
+      "7720",
+      "209525"
+    ],
+    "features": [
+      "costEfficiency",
+      "damageTrade",
+      "survival",
+      "firepower",
+      "objective"
+    ]
+  },
+  "dataset": [
+    {
+      "matchId": "5138724",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.45,
+      "survival": 0.35,
+      "firepower": 0.25,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.15,
+      "firepower": 0.55,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.05,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.95,
+      "firepower": 0.15,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.55,
+      "survival": 0.75,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.35,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.35,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.95,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5138724",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.65,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.8
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.55,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.75,
+      "firepower": 0.25,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.35,
+      "survival": 0.65,
+      "firepower": 0.75,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.65,
+      "objective": 0.8
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.15,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.75,
+      "survival": 0.15,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5137732",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.85,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.25,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.15,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.65,
+      "survival": 0.85,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.45,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.55,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5122235",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.05,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.55,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.95,
+      "objective": 0.8
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.05,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.15,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.85,
+      "objective": 0.5
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.75,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.25,
+      "objective": 0.5
+    },
+    {
+      "matchId": "5121825",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.45,
+      "objective": 0.8
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.75,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.25,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.75,
+      "firepower": 0.05,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.45,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5111421",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.15,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.15,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.25,
+      "survival": 0.15,
+      "firepower": 0.65,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.45,
+      "survival": 0.85,
+      "firepower": 0.75,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.95,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5098419",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.95,
+      "firepower": 0.25,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.95,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.65,
+      "survival": 0.65,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.45,
+      "survival": 0.05,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.15,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.05,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.95,
+      "survival": 0.25,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5074683",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.25,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.65,
+      "survival": 0.45,
+      "firepower": 0.95,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.05,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.65,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.35,
+      "firepower": 0.85,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.55,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.35,
+      "objective": 0.4
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.75,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5074476",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.15,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.85,
+      "firepower": 0.75,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.75,
+      "firepower": 0.95,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5060536",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.65,
+      "firepower": 0.55,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.35,
+      "survival": 0.95,
+      "firepower": 0.3,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.75,
+      "survival": 0.35,
+      "firepower": 0.3,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.05,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5059672",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.55,
+      "firepower": 0.45,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.55,
+      "firepower": 0.45,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.05,
+      "survival": 0.75,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.65,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.75,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.15,
+      "firepower": 0.95,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.25,
+      "firepower": 0.25,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5044393",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.45,
+      "firepower": 0.05,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.35,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.05,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.85,
+      "firepower": 0.9,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.85,
+      "survival": 0.25,
+      "firepower": 0.9,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5043452",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.45,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.35,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.55,
+      "survival": 0.35,
+      "firepower": 0.65,
+      "objective": 0.6
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.75,
+      "objective": 0.2
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.05,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.6
+    },
+    {
+      "matchId": "5042819",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.45,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.75,
+      "survival": 0.25,
+      "firepower": 0.25,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.65,
+      "firepower": 0.85,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.05,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.35,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.9
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.65,
+      "objective": 0.9
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5029417",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.75,
+      "firepower": 0.15,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.95,
+      "firepower": 0.25,
+      "objective": 0.9
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.55,
+      "objective": 0.9
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.05,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.75,
+      "survival": 0.15,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.85,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.35,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5004260",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.45,
+      "firepower": 0.15,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.55,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.15,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.15,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.05,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.75,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.85,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4864452",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.55,
+      "survival": 0.05,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.15,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.65,
+      "survival": 0.95,
+      "firepower": 0.05,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.75,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.25,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4863288",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.85,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.95,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.45,
+      "survival": 0.85,
+      "firepower": 0.15,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.75,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.85,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.95,
+      "firepower": 0.05,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.25,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4862085",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.65,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.95,
+      "objective": 0.4
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.85,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.45,
+      "firepower": 0.75,
+      "objective": 0.4
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.05,
+      "firepower": 0.25,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.15,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4817251",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.35,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.65,
+      "survival": 0.65,
+      "firepower": 0.25,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.85,
+      "survival": 0.35,
+      "firepower": 0.85,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.35,
+      "survival": 0.25,
+      "firepower": 0.45,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.25,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.15,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5017414",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.85,
+      "firepower": 0.05,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.75,
+      "objective": 0.4
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.45,
+      "firepower": 0.25,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.35,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.4
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.75,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4990922",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.15,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.85,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.75,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.95,
+      "firepower": 0.15,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.65,
+      "survival": 0.05,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.55,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.05,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4990520",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.75,
+      "survival": 0.25,
+      "firepower": 0.25,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.85,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.65,
+      "firepower": 0.35,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.55,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.25,
+      "survival": 0.85,
+      "firepower": 0.25,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4906588",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.75,
+      "survival": 0.25,
+      "firepower": 0.55,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.65,
+      "firepower": 0.15,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.05,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.95,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.35,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4905970",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.25,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.45,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.35,
+      "firepower": 0.65,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.35,
+      "survival": 0.25,
+      "firepower": 0.95,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.55,
+      "survival": 0.95,
+      "firepower": 0.15,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.55,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.55,
+      "firepower": 0.35,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4893681",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.75,
+      "firepower": 0.75,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.35,
+      "firepower": 0.25,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.15,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.45,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.65,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.65,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4892925",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.45,
+      "firepower": 0.05,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.65,
+      "firepower": 0.15,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.75,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.75,
+      "firepower": 0.45,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.65,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.35,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.25,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4880577",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.65,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.15,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.35,
+      "firepower": 0.95,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.45,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.35,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.65,
+      "survival": 0.15,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4829808",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.75,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.55,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.65,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.25,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.75,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.45,
+      "survival": 0.65,
+      "firepower": 0.85,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.05,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.75,
+      "survival": 0.05,
+      "firepower": 0.95,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4745919",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.25,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.65,
+      "survival": 0.65,
+      "firepower": 0.35,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.05,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.55,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.25,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.65,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4728214",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.25,
+      "firepower": 0.75,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.55,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.45,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.75,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.45,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4669009",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.65,
+      "survival": 0.05,
+      "firepower": 0.25,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.45,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.95,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.55,
+      "survival": 0.45,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.05,
+      "survival": 0.55,
+      "firepower": 0.35,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.35,
+      "firepower": 0.55,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.05,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4668169",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.85,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.75,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.35,
+      "firepower": 0.55,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.15,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.25,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.45,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.45,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.95,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.85,
+      "firepower": 0.05,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4654055",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.15,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.15,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.65,
+      "survival": 0.25,
+      "firepower": 0.75,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.65,
+      "firepower": 0.45,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.75,
+      "firepower": 0.05,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.75,
+      "survival": 0.05,
+      "firepower": 0.25,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4634309",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.25,
+      "survival": 0.35,
+      "firepower": 0.25,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.45,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.95,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.65,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.1,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.75,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4620883",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.75,
+      "firepower": 0.1,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.75,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.35,
+      "survival": 0.15,
+      "firepower": 0.45,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.25,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 1,
+      "costEfficiency": 0.1,
+      "damageTrade": 0.1,
+      "survival": 0.65,
+      "firepower": 0.1,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 0,
+      "costEfficiency": 0.1,
+      "damageTrade": 0.1,
+      "survival": 0.85,
+      "firepower": 0.1,
+      "objective": 0.2
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.75,
+      "survival": 0.05,
+      "firepower": 0.55,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4620712",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.95,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.85,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.35,
+      "firepower": 0.75,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.55,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.45,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.95,
+      "firepower": 0.25,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.65,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.75,
+      "firepower": 0.35,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.55,
+      "firepower": 0.95,
+      "objective": 0.7
+    },
+    {
+      "matchId": "4604291",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.45,
+      "survival": 0.45,
+      "firepower": 0.15,
+      "objective": 0.5
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.85,
+      "survival": 0.95,
+      "firepower": 0.85,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.55,
+      "objective": 0.25
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.55,
+      "survival": 0.15,
+      "firepower": 0.45,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.45,
+      "firepower": 0.75,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.85,
+      "firepower": 0.25,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.75,
+      "firepower": 0.15,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4591798",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.85,
+      "firepower": 0.15,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.95,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.35,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.65,
+      "firepower": 0.45,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.35,
+      "survival": 0.35,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.05,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.25,
+      "objective": 0.35
+    },
+    {
+      "matchId": "4591244",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.65,
+      "survival": 0.95,
+      "firepower": 0.05,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.15,
+      "firepower": 0.75,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.15,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.75,
+      "firepower": 0.95,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.35,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.55,
+      "survival": 0.45,
+      "firepower": 0.55,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.15,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.85,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.6
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.75,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4548090",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.1
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.75,
+      "firepower": 0.45,
+      "objective": 0.45
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.35,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.65,
+      "survival": 0.85,
+      "firepower": 0.85,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.45,
+      "firepower": 0.95,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.55,
+      "survival": 0.35,
+      "firepower": 0.25,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.45,
+      "survival": 0.95,
+      "firepower": 0.65,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.25,
+      "survival": 0.05,
+      "firepower": 0.55,
+      "objective": 0.65
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.65,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4515719",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.15,
+      "objective": 0.05
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.45,
+      "survival": 0.25,
+      "firepower": 0.65,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.35,
+      "firepower": 0.35,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.95,
+      "survival": 0.65,
+      "firepower": 0.95,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.05,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 0,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.15,
+      "survival": 0.05,
+      "firepower": 0.45,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.85,
+      "firepower": 0.55,
+      "objective": 0.85
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.55,
+      "survival": 0.75,
+      "firepower": 0.85,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.75,
+      "survival": 0.45,
+      "firepower": 0.75,
+      "objective": 0.15
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.35,
+      "survival": 0.95,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515542",
+      "isWin": 0,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.25,
+      "survival": 0.55,
+      "firepower": 0.15,
+      "objective": 0.55
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 1,
+      "costEfficiency": 0.1,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.1,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.45,
+      "survival": 0.65,
+      "firepower": 0.65,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 0,
+      "costEfficiency": 0.1,
+      "damageTrade": 0.05,
+      "survival": 0.95,
+      "firepower": 0.1,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.55,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.75,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.55,
+      "survival": 0.25,
+      "firepower": 0.95,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.35,
+      "objective": 0.95
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.75,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.3
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.35,
+      "survival": 0.05,
+      "firepower": 0.85,
+      "objective": 0.75
+    },
+    {
+      "matchId": "4515375",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.75,
+      "survival": 0.15,
+      "firepower": 0.65,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.65,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.05,
+      "survival": 0.35,
+      "firepower": 0.45,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.1
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 1,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.85,
+      "survival": 0.45,
+      "firepower": 0.95,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 1,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.45,
+      "survival": 0.75,
+      "firepower": 0.55,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.25,
+      "survival": 0.65,
+      "firepower": 0.35,
+      "objective": 0.3
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.55,
+      "survival": 0.85,
+      "firepower": 0.85,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.25,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5152808",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.35,
+      "survival": 0.55,
+      "firepower": 0.25,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 1,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.35,
+      "survival": 0.45,
+      "firepower": 0.35,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 1,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.45,
+      "survival": 0.35,
+      "firepower": 0.95,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 0,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.65,
+      "survival": 0.75,
+      "firepower": 0.45,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.15,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 0,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.55,
+      "survival": 0.25,
+      "firepower": 0.55,
+      "objective": 0.95
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.85,
+      "survival": 0.55,
+      "firepower": 0.65,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.25,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 1,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.15,
+      "survival": 0.65,
+      "firepower": 0.05,
+      "objective": 0.05
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 0,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.95,
+      "survival": 0.85,
+      "firepower": 0.85,
+      "objective": 0.25
+    },
+    {
+      "matchId": "5151846",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.95,
+      "firepower": 0.75,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 1,
+      "costEfficiency": 0.15,
+      "damageTrade": 0.15,
+      "survival": 0.15,
+      "firepower": 0.25,
+      "objective": 0.85
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 0,
+      "costEfficiency": 0.45,
+      "damageTrade": 0.95,
+      "survival": 0.95,
+      "firepower": 0.15,
+      "objective": 0.35
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 1,
+      "costEfficiency": 0.25,
+      "damageTrade": 0.55,
+      "survival": 0.85,
+      "firepower": 0.35,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 0,
+      "costEfficiency": 0.65,
+      "damageTrade": 0.65,
+      "survival": 0.65,
+      "firepower": 0.55,
+      "objective": 0.75
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 0,
+      "costEfficiency": 0.85,
+      "damageTrade": 0.75,
+      "survival": 0.55,
+      "firepower": 0.85,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 1,
+      "costEfficiency": 0.35,
+      "damageTrade": 0.35,
+      "survival": 0.25,
+      "firepower": 0.75,
+      "objective": 0.45
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 1,
+      "costEfficiency": 0.75,
+      "damageTrade": 0.45,
+      "survival": 0.75,
+      "firepower": 0.65,
+      "objective": 0.65
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 1,
+      "costEfficiency": 0.55,
+      "damageTrade": 0.25,
+      "survival": 0.45,
+      "firepower": 0.45,
+      "objective": 0.15
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 0,
+      "costEfficiency": 0.05,
+      "damageTrade": 0.05,
+      "survival": 0.05,
+      "firepower": 0.05,
+      "objective": 0.55
+    },
+    {
+      "matchId": "5038334",
+      "isWin": 0,
+      "costEfficiency": 0.95,
+      "damageTrade": 0.85,
+      "survival": 0.35,
+      "firepower": 0.95,
+      "objective": 0.95
+    }
+  ]
+}
