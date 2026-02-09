@@ -160,6 +160,7 @@ MIT
 
 ## 🙏 致谢
 
+- [断箭蛆指数 (Broken Arrow Maggot)](https://github.com/Zawinzala/Broken-Arrow-Maggot) — 本项目的原始版本，由 Zawinzala 创建
 - [Barmory.net](https://barmory.net/) — 对局数据 API
 - [BATRace](https://batrace.aoeiaol.top/) — 玩家搜索 API
 - [SHAP](https://github.com/shap/shap) — 可解释 AI 框架
