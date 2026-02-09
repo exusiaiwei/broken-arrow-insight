@@ -147,7 +147,7 @@ function renderPlaystyleSection(playstyle) {
  * 渲染 SVG 雷达图
  */
 function renderRadarSVG(dimensions, dict) {
-  const cx = 100, cy = 100, r = 70;
+  const cx = 140, cy = 130, r = 70;
   const n = dimensions.length;
   const angleStep = (2 * Math.PI) / n;
 
@@ -182,17 +182,17 @@ function renderRadarSVG(dimensions, dict) {
     return `<circle cx="${dx}" cy="${dy}" r="3" fill="#06b6d4" stroke="white" stroke-width="1"/>`;
   }).join('');
 
-  // 标签
+  // 标签 — 加大偏移避免中文被裁切
   const labels = dimensions.map((d, i) => {
     const angle = -Math.PI / 2 + i * angleStep;
-    const lx = cx + (r + 22) * Math.cos(angle);
-    const ly = cy + (r + 22) * Math.sin(angle);
+    const lx = cx + (r + 30) * Math.cos(angle);
+    const ly = cy + (r + 30) * Math.sin(angle);
     const label = dict.style_dims?.[d.key] || d.key;
     const anchor = Math.abs(Math.cos(angle)) < 0.3 ? 'middle' : Math.cos(angle) > 0 ? 'start' : 'end';
-    return `<text x="${lx}" y="${ly}" fill="#94a3b8" text-anchor="${anchor}" dominant-baseline="middle" font-size="9" font-weight="bold">${d.icon} ${label}</text>`;
+    return `<text x="${lx}" y="${ly}" fill="#94a3b8" text-anchor="${anchor}" dominant-baseline="middle" font-size="10" font-weight="bold">${d.icon} ${label}</text>`;
   }).join('');
 
-  return `<svg viewBox="0 0 200 200" class="w-full h-full max-w-[240px] mx-auto">
+  return `<svg viewBox="0 0 280 260" class="w-full h-full max-w-[280px] mx-auto">
     ${gridLines}${axes}
     <polygon points="${dataPoints}" fill="rgba(6,182,212,0.2)" stroke="rgba(6,182,212,0.8)" stroke-width="2"/>
     ${dots}${labels}
