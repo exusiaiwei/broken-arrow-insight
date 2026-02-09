@@ -18,13 +18,13 @@ export const CONFIG = {
   ],
 
   // ===== WCS (Win Contribution Score) 权重 =====
-  // 基于 XGBoost + SHAP 分析 (53场/530样本, 修正 isWin bug 后)
+  // 基于 XGBoost + SHAP v2 (含交互特征: tankEfficiency, combatPresence, firepowerROI)
   WCS_WEIGHTS: {
-    battlefield:  0.29,   // 战场贡献 (teamLossShare, teamDmgShare 等)
-    combat:       0.18,   // 战斗效率 (dlRatio, survivalRate, damageTrade)
-    firepower:    0.11,   // 火力输出 (damageDealt, destructionScore)
-    economy:      0.11,   // 经济管理 (netInvestment, refundRate 等)
-    teamwork:     0.10,   // 团队协作 (uniqueUnits, supply 互助)
+    battlefield:  0.25,   // 战场贡献 (teamLossShare, teamDmgShare 等)
+    combat:       0.20,   // 战斗效率 (survivalRate, tankEfficiency, costEfficiency, dlRatio)
+    firepower:    0.14,   // 火力输出 (destructionScore, combatPresence, firepowerROI)
+    teamwork:     0.11,   // 团队协作 (uniqueUnits, supply 互助)
+    economy:      0.09,   // 经济管理 (totalSpawned, netInvestment 等)
     strategy:     0.06,   // 战略目标 (占点+补给+建筑)
     winBonus:     0.15,   // 胜负修正
   },

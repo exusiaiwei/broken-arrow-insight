@@ -34,6 +34,30 @@ def main():
             fixed += 1
             d['isWin'] = correct
 
+    # ===== 注入交互特征 =====
+    # 让 SHAP 告诉我们这些交互项是否真的影响胜率
+    for d in dataset:
+        net_inv = max(d.get('netInvestment', 1), 1)
+        loss_score = d.get('lossesScore', 0)
+        dmg_trade = d.get('damageTrade', 0)
+        team_loss = d.get('teamLossShare', 0)
+        team_dmg = d.get('teamDmgShare', 0)
+        team_dest = d.get('teamDestShare', 0)
+        cost_eff = d.get('costEfficiency', 0)
+        dmg_dealt = d.get('damageDealt', 0)
+
+        # 承伤效率: 承压多 + 打得回来 = 高 → 好; 承压多 + 打不回来 = 低 → 差
+        d['tankEfficiency'] = team_loss * dmg_trade
+
+        # 火力性价比: 每点投入产出多少伤害
+        d['firepowerROI'] = dmg_dealt / net_inv
+
+        # 火力集中度: 伤害占比 × 击杀占比都高 = 输出集中在你身上
+        d['combatPresence'] = team_dmg * team_dest
+
+        # 损失有效度: 亏了多少 × 但成本效率高不高
+        d['lossEfficiency'] = loss_score * cost_eff
+
     # 特征定义（排除标签和非特征字段）
     exclude = {'matchId', 'playerId', 'teamId', 'isWin',
                'oldRating', 'newRating', 'ratingDelta'}
@@ -120,8 +144,10 @@ def main():
     CATEGORIES = {
         '经济管理': ['totalSpawned', 'totalRefunded', 'refundRate', 'netInvestment',
                    'supplyConsumed'],
-        '战斗效率': ['costEfficiency', 'damageTrade', 'dlRatio', 'survivalRate'],
-        '火力输出': ['damageDealt', 'destructionScore', 'damageReceived'],
+        '战斗效率': ['costEfficiency', 'damageTrade', 'dlRatio', 'survivalRate',
+                   'tankEfficiency', 'lossEfficiency'],
+        '火力输出': ['damageDealt', 'destructionScore', 'damageReceived',
+                   'firepowerROI', 'combatPresence'],
         '战场贡献': ['lossesScore', 'teamLossShare', 'teamDmgShare',
                    'teamDestShare', 'teamSpawnShare'],
         '战略目标': ['objectivesCaptured', 'supplyCaptured', 'buildingsDestroyed'],

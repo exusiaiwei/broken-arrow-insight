@@ -168,6 +168,9 @@ export function processFinalData(myUid, matches) {
         survivalRate: Math.max(0, 1 - safeDivide(p.LossesScore || 0, netInv)),
         damageTrade: safeDivide(p.DamageDealt || 0, Math.max(p.DamageReceived || 0, 1)),
         costEfficiency: safeDivide(p.DestructionScore || 0, netInv),
+        // 承伤效率 (SHAP v2 交互特征, 排名第7): 承压占比 × 交换比
+        tankEfficiency: safeDivide(p.LossesScore || 0, Math.max(teamTotals[t].loss, 1)) *
+                        safeDivide(p.DamageDealt || 0, Math.max(p.DamageReceived || 0, 1)),
 
         // --- 经济管理原始指标 ---
         refundRate: safeDivide(p.TotalRefundedUnitScore || 0, Math.max(p.TotalSpawnedUnitScore || 0, 1)),
@@ -186,6 +189,8 @@ export function processFinalData(myUid, matches) {
         // --- 火力输出原始指标 ---
         damageDealt: p.DamageDealt || 0,
         destructionScore: p.DestructionScore || 0,
+        // 火力性价比 (SHAP v2 交互特征): 每点投入产出多少伤害
+        firepowerROI: safeDivide(p.DamageDealt || 0, netInv),
 
         // --- 展示用 ---
         netInvestment: netInv,
@@ -221,13 +226,14 @@ export function processFinalData(myUid, matches) {
         pct(myMetrics.teamDestShare, 'teamDestShare')
       ) / 3;
 
-      // 战斗效率 = D/L比 + 存活率 + 交换比 + 成本效率
+      // 战斗效率 = 存活率 + 承伤效率 + 成本效率 + D/L比 + 交换比
       myCats.combat = (
-        pct(myMetrics.dlRatio, 'dlRatio') +
         pct(myMetrics.survivalRate, 'survivalRate') +
-        pct(myMetrics.damageTrade, 'damageTrade') +
-        pct(myMetrics.costEfficiency, 'costEfficiency')
-      ) / 4;
+        pct(myMetrics.tankEfficiency, 'tankEfficiency') +
+        pct(myMetrics.costEfficiency, 'costEfficiency') +
+        pct(myMetrics.dlRatio, 'dlRatio') +
+        pct(myMetrics.damageTrade, 'damageTrade')
+      ) / 5;
 
       // 经济管理 = 退兵率 + 退款总额
       myCats.economy = (
@@ -249,11 +255,12 @@ export function processFinalData(myUid, matches) {
         pct(myMetrics.buildingsDestroyed, 'buildingsDestroyed')
       ) / 3;
 
-      // 火力输出 = 伤害 + 击毁值
+      // 火力输出 = 击毁值 + 火力性价比 + 伤害
       myCats.firepower = (
-        pct(myMetrics.damageDealt, 'damageDealt') +
-        pct(myMetrics.destructionScore, 'destructionScore')
-      ) / 2;
+        pct(myMetrics.destructionScore, 'destructionScore') +
+        pct(myMetrics.firepowerROI, 'firepowerROI') +
+        pct(myMetrics.damageDealt, 'damageDealt')
+      ) / 3;
 
       const winScore = isWin ? 100 : isDraw ? 50 : 0;
 
