@@ -60,6 +60,19 @@
                 <button onclick="handleCheck()" id="btn_check" class="bg-cyan-600 hover:bg-cyan-500 text-white font-black px-12 py-4 md:py-5 rounded-xl md:rounded-2xl shadow-xl transform active:scale-95 transition-all text-base md:text-lg whitespace-nowrap">开始检测</button>
             </div>
 
+            <!-- 对局数滑条 -->
+            <div class="w-full max-w-2xl mt-4 flex items-center gap-3 px-2">
+                <span class="text-[10px] md:text-xs text-slate-500 font-bold whitespace-nowrap" id="lbl_match_count">分析对局数</span>
+                <input type="range" id="matchCountSlider" min="8" max="30" value="12" step="1"
+                    class="flex-1 h-1.5 bg-slate-700 rounded-full appearance-none cursor-pointer accent-cyan-500
+                    [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-4 [&::-webkit-slider-thumb]:h-4
+                    [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-cyan-500 [&::-webkit-slider-thumb]:shadow-lg
+                    [&::-webkit-slider-thumb]:cursor-pointer [&::-webkit-slider-thumb]:border-2 [&::-webkit-slider-thumb]:border-white/30"
+                    oninput="document.getElementById('matchCountValue').textContent = this.value">
+                <span class="text-sm md:text-base font-mono font-black text-cyan-400 w-8 text-center" id="matchCountValue">12</span>
+                <span class="text-[10px] md:text-xs text-slate-600 font-bold">局</span>
+            </div>
+
             <div class="flex flex-row flex-wrap justify-center gap-2 md:gap-6 mt-4">
                 <button onclick="openSearchModal()" class="text-slate-400 text-xs md:text-sm hover:text-orange-400 transition flex items-center gap-2 group p-2">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 group-hover:scale-110 transition" fill="none" viewBox="0 0 24 24" stroke="currentColor">

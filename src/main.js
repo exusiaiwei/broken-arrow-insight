@@ -88,6 +88,10 @@ async function handleCheck() {
 
   const d = t();
 
+  // 读取用户设定的对局数（滑条）
+  const slider = document.getElementById('matchCountSlider');
+  const matchGoal = slider ? parseInt(slider.value, 10) : CONFIG.MATCH_GOAL;
+
   document.getElementById('errorArea').classList.add('hidden');
   document.getElementById('loading').classList.remove('hidden');
   document.getElementById('resultPanel').classList.add('hidden');
@@ -116,7 +120,7 @@ async function handleCheck() {
     const validMatches = [];
     let cursor = 0;
 
-    while (cursor < matchList.length && validMatches.length < CONFIG.MATCH_GOAL) {
+    while (cursor < matchList.length && validMatches.length < matchGoal) {
       // 取一批 match ID
       const batch = matchList.slice(cursor, cursor + CONCURRENCY);
       cursor += CONCURRENCY;
@@ -131,7 +135,7 @@ async function handleCheck() {
 
       // 处理结果
       for (const result of results) {
-        if (validMatches.length >= CONFIG.MATCH_GOAL) break;
+        if (validMatches.length >= matchGoal) break;
         if (result.status !== 'fulfilled') {
           console.error('Match fetch failed', result.reason);
           continue;
@@ -141,18 +145,18 @@ async function handleCheck() {
         const hasEloChange = players.some((p) => Math.abs(p.NewRating - p.OldRating) > 0.01);
         if (players.length >= CONFIG.MIN_PLAYERS && hasEloChange) {
           validMatches.push({ id: mId, data: detail });
-          const prg = Math.round((validMatches.length / CONFIG.MATCH_GOAL) * 100);
-          updateProgress(prg, `Syncing (${validMatches.length}/12)`, `Match ${mId} OK`);
+          const prg = Math.round((validMatches.length / matchGoal) * 100);
+          updateProgress(prg, `Syncing (${validMatches.length}/${matchGoal})`, `Match ${mId} OK`);
         }
       }
 
       // 批次间小延迟，避免触发 API 限流
-      if (validMatches.length < CONFIG.MATCH_GOAL && cursor < matchList.length) {
+      if (validMatches.length < matchGoal && cursor < matchList.length) {
         await new Promise((r) => setTimeout(r, 200));
       }
     }
 
-    if (validMatches.length < CONFIG.MATCH_GOAL) throw new Error(d.err_insufficient);
+    if (validMatches.length < matchGoal) throw new Error(d.err_insufficient?.replace(/\d+/, matchGoal) || `Not enough valid matches (need ${matchGoal}).`);
 
     // 4. 显示玩家信息
     const finalMe = validMatches[0].data.Data[uid];
@@ -164,6 +168,10 @@ async function handleCheck() {
     // 5. 分析 & 渲染结果
     const result = processFinalData(uid, validMatches);
     renderResults(result);
+
+    // 更新历史标题显示实际对局数
+    const histEl = document.getElementById('lbl_history_title');
+    if (histEl) histEl.textContent = `${d.history_title?.replace(/\d+/, validMatches.length) || `Recent ${validMatches.length} Matches`}`;
 
     // 6. 异步加载爱用单位贴纸
     const favUnits = calculateFavoriteUnits(validMatches, uid);
