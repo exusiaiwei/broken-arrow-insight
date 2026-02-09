@@ -35,12 +35,12 @@ export default {
   },
   // 六维 tooltip 说明
   wcs_tips: {
-    battlefield: '队内损失承担 + 队内伤害占比 + 队内击毁占比\n权重: 29% (SHAP 最高)',
-    combat: 'D/L比 + 存活率 + 伤害交换比 + 成本效率\n权重: 16%',
-    economy: '退兵率 + 退款总额\n权重: 16%',
-    teamwork: '兵种多样性 + 补给收到/给出\n权重: 10%',
-    strategy: '占点 + 抢补给 + 摧毁建筑\n权重: 8%',
-    firepower: '伤害输出 + 击毁得分\n权重: 6%',
+    battlefield: '队内损失承担 + 队内伤害占比 + 队内击毁占比',
+    combat: '存活率 + 承伤效率 + 成本效率 + D/L比 + 伤害交换比',
+    economy: '部署总量 + 净投入 + 补给消耗 + 退款率',
+    teamwork: '兵种多样性 + 补给收到/给出',
+    strategy: '占点 + 抢补给 + 摧毁建筑',
+    firepower: '击毁得分 + 火力性价比 + 伤害输出',
   },
   tag_killer: '⚔️ 击杀为主', tag_kd: '📈 KD 为主', tag_obj: '🚩 占点为主',
   res_vic: '胜利', res_def: '失败', res_draw: '平局',

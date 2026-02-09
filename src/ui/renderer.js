@@ -58,12 +58,12 @@ export function renderResults(result) {
 
   // ---- Tooltip 说明 ----
   const tips = d.wcs_tips || {
-    battlefield: 'Team loss share + Team damage share + Team destruction share\nWeight: 29%',
-    combat: 'D/L Ratio + Survival Rate + Damage Trade + Cost Efficiency\nWeight: 16%',
-    economy: 'Refund Rate + Total Refunded\nWeight: 16%',
-    teamwork: 'Unit Diversity + Supply From/To Allies\nWeight: 10%',
-    strategy: 'Objectives + Supply Captured + Buildings Destroyed\nWeight: 8%',
-    firepower: 'Damage Dealt + Destruction Score\nWeight: 6%',
+    battlefield: 'Team Loss Share + Team Damage Share + Team Destruction Share',
+    combat: 'Survival Rate + Tank Efficiency + Cost Efficiency + D/L Ratio + Damage Trade',
+    economy: 'Total Spawned + Net Investment + Supply Consumed + Refund Rate',
+    teamwork: 'Unit Diversity + Supply From/To Allies',
+    strategy: 'Objectives + Supply Captured + Buildings Destroyed',
+    firepower: 'Destruction Score + Firepower ROI + Damage Dealt',
   };
   Object.entries(tips).forEach(([key, text]) => {
     const el = document.getElementById(`tip_${key}`);
